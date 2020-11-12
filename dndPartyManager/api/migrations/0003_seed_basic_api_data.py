@@ -2,16 +2,8 @@
 
 from django.db import migrations
 
-seedUser = None
-
-def seedUsers(apps, schema_editor):
-    User = apps.get_model('api', 'User')
-    seedUser = User(email='seeduseremail', password='Test Hash')
-    seedUser.save()
-
-
 def seedCharacters(apps, schema_editor):
-    User = apps.get_model('api', 'User')
+    User = apps.get_model('userAuth', 'User')
     Character = apps.get_model('api', 'Character')
     CharacterClass = apps.get_model('api', 'CharacterClass')
     seedCharacter = Character(name='Seed Character', level=1, player=User.objects.get(email='seeduseremail'))
@@ -40,12 +32,12 @@ def seedAbilities(apps, schema_editor):
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('api', '0001_initial'),
+        ('api', '0002_auto_20201112_2004'),
+        ('userAuth', '0002_seed_one_user'),
     ]
 
     operations = [
         migrations.RunPython(seedCharacterClasses),
         migrations.RunPython(seedAbilities),
-        migrations.RunPython(seedUsers),
         migrations.RunPython(seedCharacters),
     ]

@@ -1,12 +1,7 @@
 from django.db import models
-from django.contrib.auth.models import User as DjangoUser
+from userAuth.models import User
 
 # Create your models here.
-
-class User(DjangoUser):
-
-    def __str__(self):
-        return 'User ' + self.userName
 
 class CharacterClass(models.Model):
 

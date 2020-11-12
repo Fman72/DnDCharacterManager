@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from django.views.generic import View
 from django.core import serializers
 from .utility import queryDictToDict
-from .models import User, Ability, Character, AbilityUse, CharacterClass
+from .models import Ability, Character, AbilityUse, CharacterClass
 
 # Create your views here.
 
@@ -16,7 +16,7 @@ def index(request):
 # Will add auth later.
 # Creating individual views lets me extend them later to handle un expected use cases. I can remain flexible.
 class ModelView(View):
-    viewClass = User
+    viewClass = None
     
     def get(self, request):
         requestParams = queryDictToDict(request.GET)
