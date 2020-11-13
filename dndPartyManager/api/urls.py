@@ -1,11 +1,14 @@
-from django.urls import path
-from . import views
+from django.urls import path, include
+from rest_framework import routers
+from . import viewSets
+
+
+router = routers.DefaultRouter()
+router.register(r'characters', viewSets.CharacterViewSet)
+router.register(r'abilities', viewSets.AbilityViewSet)
+router.register(r'character_classes', viewSets.CharacterClassViewSet)
+router.register(r'ability_uses', viewSets.AbilityUseViewSet)
 
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('user', views.ModelView.as_view()),
-    path('ability', views.AbilityView.as_view()),
-    path('character', views.CharacterView.as_view()),
-    path('character_class', views.CharacterClassView.as_view()),
-    path('ability_use', views.AbilityUseView.as_view()),
+    path('', include(router.urls))
 ]

@@ -38,6 +38,7 @@ class Character(models.Model):
     characterClass = models.ManyToManyField(CharacterClass)
     abilities = models.ManyToManyField(Ability)
     player = models.ForeignKey(User, on_delete=models.CASCADE, blank=False)
+    # currentSession = models.ForeignKey(GameSession, on_delete=models.DO_NOTHING, blank=False)
 
 class AbilityUse(models.Model):
 
@@ -47,3 +48,13 @@ class AbilityUse(models.Model):
     ability = models.ForeignKey(Ability, on_delete=models.CASCADE, blank=False)
     character = models.ForeignKey(Character, on_delete=models.CASCADE, blank=False)
     timestamp = models.DateTimeField(blank=False)
+
+# class GameSession(models.Model):
+
+#     def __str__(self):
+#         return f'GameSession {self.id}'
+
+#     name = models.CharField(max_length=100, blank=False)
+#     description = models.CharField(max_length=100, blank=True)
+#     code = models.CharField(max_length=100, blank=False)
+#     historic = models.BooleanField(blank=False, default=False)
