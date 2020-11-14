@@ -1,7 +1,9 @@
 from graphene import relay, List, Field, String, ObjectType, Schema
 from graphene_django import DjangoObjectType
 from graphene_django.filter import DjangoFilterConnectionField
+from graphene_django.rest_framework.mutation import SerializerMutation
 from . import models
+from . import serializers
 
 class CharacterClassType(DjangoObjectType):
     class Meta:
@@ -46,4 +48,31 @@ class Query(ObjectType):
     allCharacters = DjangoFilterConnectionField(CharacterType)
     allAbilityUses = DjangoFilterConnectionField(AbilityUseType)
 
-schema = Schema(query=Query)
+
+class CharacterMutation(SerializerMutation):
+    class Meta:
+        serializer_class = serializers.CharacterSerializer
+        # lookup_field = 'id'
+
+    @classmethod
+    # This sets the player for a character to the logged in user.
+    def get_serializer_kwargs(cls, root, info, **input):
+        player = info.context.user.id
+        data = {**input, 'player': player}
+        if 'id' in input:
+            instance = Post.objects.filter(id=input['id'], owner=info.context.user).first()
+            if instance:
+                return {'instance': instance, 'data': data, 'partial': True}
+
+            else:
+                raise http.Http404
+
+        return {'data': data, 'partial': True}
+
+class AbilityUseMutation(SerializerMutation):
+    class Meta:
+        serializer_class = serializers.AbilityUseSerializer
+
+class Mutation(ObjectType):
+    character=CharacterMutation.Field()
+    abilityUse=AbilityUseMutation.Field()

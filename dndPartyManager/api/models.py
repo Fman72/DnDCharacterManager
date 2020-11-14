@@ -1,5 +1,5 @@
 from django.db import models
-from userAuth.models import User
+from django.contrib.auth.models import User
 
 # Create your models here.
 
@@ -36,7 +36,7 @@ class Character(models.Model):
     name = models.CharField(max_length=100, blank=False)
     level = models.IntegerField(blank=False, default=1)
     characterClass = models.ManyToManyField(CharacterClass)
-    abilities = models.ManyToManyField(Ability)
+    abilities = models.ManyToManyField(Ability, blank=True)
     player = models.ForeignKey(User, on_delete=models.CASCADE, blank=False)
     # currentSession = models.ForeignKey(GameSession, on_delete=models.DO_NOTHING, blank=False)
 

@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'dndPartyManager.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dndpartymanager',
+        'NAME': 'dnd',
         'USER': 'postgres',
         'PASSWORD': 'root',
         'HOST': '127.0.0.1',
