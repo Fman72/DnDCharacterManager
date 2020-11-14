@@ -10,5 +10,5 @@ router.register(r'character_classes', viewSets.CharacterClassViewSet)
 router.register(r'ability_uses', viewSets.AbilityUseViewSet)
 
 urlpatterns = [
-    path('', include(router.urls))
+    path('', include(router.urls)),
 ]

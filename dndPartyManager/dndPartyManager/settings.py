@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'graphene_django',
+    'django_filters',
 ]
 
 MIDDLEWARE = [
@@ -132,4 +134,8 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated',
     ]
+}
+
+GRAPHENE = {
+    "SCHEMA": "dndPartyManager.schema.schema"
 }
