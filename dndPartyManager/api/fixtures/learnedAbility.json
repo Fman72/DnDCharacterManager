@@ -1,0 +1,12 @@
+[
+  {
+    "model": "api.learnedAbility",
+    "pk": 1,
+    "fields": {
+      "character": 1,
+      "ability": 1,
+      "uses": 3,
+      "learnedType": 1
+    }
+  }
+]

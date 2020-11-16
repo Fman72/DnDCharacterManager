@@ -1,0 +1,23 @@
+[
+    {
+      "model": "api.characterClass",
+      "pk": 1,
+      "fields": {
+        "name": "Wizard"
+      }
+    },
+    {
+      "model": "api.characterClass",
+      "pk": 2,
+      "fields": {
+        "name": "Cleric"
+      }
+    },
+    {
+      "model": "api.characterClass",
+      "pk": 3,
+      "fields": {
+        "name": "Fighter"
+      }
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+      "model": "api.character",
+      "pk": 1,
+      "fields": {
+        "name": "Test Character",
+        "level": 1,
+        "characterClass": [1],
+        "player": 1
+      }
+    }
+]

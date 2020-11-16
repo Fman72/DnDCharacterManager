@@ -5,6 +5,7 @@ from graphene_django.rest_framework.mutation import SerializerMutation
 from . import models
 from . import serializers
 
+
 class CharacterClassType(DjangoObjectType):
     class Meta:
         model = models.CharacterClass
@@ -26,9 +27,20 @@ class AbilityType(DjangoObjectType):
 class CharacterType(DjangoObjectType):
     class Meta:
         model = models.Character
-        fields = ('id', 'name', 'level', 'characterClass', 'abilties', 'player')
+        fields = ('id', 'name', 'level', 'characterClass', 'player')
         interfaces = (relay.Node, )
         filter_fields = ['name', 'level', 'characterClass', 'player']
+
+        @classmethod
+        def get_node(cls, info, id):
+            try:
+                character = Character.objects.get(id=id)
+            except Character.DoesNotExist:
+                return None
+
+            if character.player == info.context.user:
+                return character
+            return None
 
 class AbilityUseType(DjangoObjectType):
     class Meta:
@@ -37,11 +49,18 @@ class AbilityUseType(DjangoObjectType):
         interfaces = (relay.Node, )
         filter_fields = ['ability', 'character', 'timestamp']
 
+class GameSessionType(DjangoObjectType):
+    class Meta:
+        model = models.GameSession
+        fields = ('code', 'name', 'description', 'historic')
+        interfaces = (relay.Node, )
+
 class Query(ObjectType):
     characterClass = relay.Node.Field(CharacterClassType)
     ability = relay.Node.Field(AbilityType)
     character = relay.Node.Field(CharacterType)
     abilityUse = relay.Node.Field(AbilityUseType)
+    gameSession = relay.Node.Field(GameSessionType)
 
     allCharacterClasses = DjangoFilterConnectionField(CharacterClassType)
     allAbilities = DjangoFilterConnectionField(AbilityType)
@@ -73,6 +92,16 @@ class AbilityUseMutation(SerializerMutation):
     class Meta:
         serializer_class = serializers.AbilityUseSerializer
 
+class GameSessionUseMutation(SerializerMutation):
+    class Meta:
+        serializer_class = serializers.GameSessionSerializer
+
+class LearnedAbilityMutation(SerializerMutation):
+    class Meta:
+        serializer_class = serializers.LearnedAbilitySerializer
+
 class Mutation(ObjectType):
     character=CharacterMutation.Field()
     abilityUse=AbilityUseMutation.Field()
+    gameSession=GameSessionMutation.Field()
+    learnedAbility=LearnedAbilityMutation.Field()

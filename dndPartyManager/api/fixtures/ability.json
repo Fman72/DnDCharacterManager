@@ -1,0 +1,22 @@
+[
+    {
+      "model": "api.ability",
+      "pk": 1,
+      "fields": {
+        "name": "Seed Spell",
+        "description": "The Seed Spell",
+        "level": 1,
+        "abilityType": 1
+      }
+    },
+    {
+        "model": "api.ability",
+        "pk": 2,
+        "fields": {
+          "name": "Seed Spell 2",
+          "description": "The 2nd Seed Spell",
+          "level": 1,
+          "abilityType": 1
+        }
+      } 
+]
