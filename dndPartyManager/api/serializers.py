@@ -24,7 +24,6 @@ class GameSessionSerializer(serializers.ModelSerializer):
 class CharacterSerializer(serializers.ModelSerializer):
     
     characterClass = CharacterClassSerializer(many=True, read_only=True)
-    abilities = AbilitySerializer(many=True, required=False, read_only=True)
     # Player is not required here as it is set from the logged in user not the request.
     # The schema of this serializer is what SerializerMutations from graphene use.
     # If this is required here we must pass player to the graphql api when making a character which does not make sense as 
@@ -42,7 +41,7 @@ class AbilityUseSerializer(serializers.ModelSerializer):
         fields = ['ability', 'character', 'timestamp']
 
 class LearnedAbilitySerializer(serializers.ModelSerializer):
-    
+
     class Meta:
-        model = models.AbilityUse
+        model = models.LearnedAbility
         fields = ['character', 'ability', 'uses', 'learnedType']

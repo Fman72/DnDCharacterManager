@@ -47,7 +47,14 @@ class AbilityUseType(DjangoObjectType):
         model = models.AbilityUse
         fields = ('ability', 'character', 'timestamp')
         interfaces = (relay.Node, )
-        filter_fields = ['ability', 'character', 'timestamp']
+        filter_fields = ['character']
+
+class LearnedAbilityType(DjangoObjectType):
+    class Meta:
+        model = models.LearnedAbility
+        fields = ('character', 'ability', 'uses', 'learnedType')
+        interfaces = (relay.Node, )
+        filter_fields = ['character']
 
 class GameSessionType(DjangoObjectType):
     class Meta:
@@ -61,11 +68,13 @@ class Query(ObjectType):
     character = relay.Node.Field(CharacterType)
     abilityUse = relay.Node.Field(AbilityUseType)
     gameSession = relay.Node.Field(GameSessionType)
+    learnedAbility = relay.Node.Field(LearnedAbilityType)
 
     allCharacterClasses = DjangoFilterConnectionField(CharacterClassType)
     allAbilities = DjangoFilterConnectionField(AbilityType)
     allCharacters = DjangoFilterConnectionField(CharacterType)
     allAbilityUses = DjangoFilterConnectionField(AbilityUseType)
+    allLearnedAbilities = DjangoFilterConnectionField(LearnedAbilityType)
 
 
 class CharacterMutation(SerializerMutation):
@@ -92,12 +101,13 @@ class AbilityUseMutation(SerializerMutation):
     class Meta:
         serializer_class = serializers.AbilityUseSerializer
 
-class GameSessionUseMutation(SerializerMutation):
+class GameSessionMutation(SerializerMutation):
     class Meta:
         serializer_class = serializers.GameSessionSerializer
 
 class LearnedAbilityMutation(SerializerMutation):
     class Meta:
+        convert_choices_to_enum = False
         serializer_class = serializers.LearnedAbilitySerializer
 
 class Mutation(ObjectType):

@@ -63,7 +63,7 @@ class LearnedAbility(models.Model):
     def __str__(self):
         return f'LearnedAbility by {self.character.name} of {self.ability.name} at {self.timestamp}'
 
-    class LearnedTypes(models.TextChoices):
+    class LearnedType(models.TextChoices):
         WIZARD_SPELL = 'Wizard Spell'
         SORCERER_SPELL = 'Sorcerer Spell'
         CLERIC_SPELL = 'Cleric Spell'
@@ -74,7 +74,7 @@ class LearnedAbility(models.Model):
     uses = models.IntegerField(blank=False)
     learnedType = models.CharField(
         max_length=100,
-        choices=LearnedTypes.choices
+        choices=LearnedType.choices
     )
     # class Meta:
     #     constraints = [
