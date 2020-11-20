@@ -17,6 +17,8 @@ from django.contrib import admin
 from django.urls import path, include
 from django.contrib.auth.mixins import LoginRequiredMixin
 from graphene_django.views import GraphQLView
+from django.views.decorators.csrf import csrf_exempt
+
 
 class PrivateGraphQLView(LoginRequiredMixin, GraphQLView):
     pass
@@ -25,5 +27,5 @@ urlpatterns = [
     path('api/', include('api.urls')),
     path('userAuth/', include('userAuth.urls')),
     path('admin/', admin.site.urls),
-    path('graphql/', PrivateGraphQLView.as_view(graphiql=True)),
+    path('graphql/', csrf_exempt(GraphQLView.as_view(graphiql=False))),
 ]

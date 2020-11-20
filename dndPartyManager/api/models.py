@@ -8,7 +8,7 @@ class CharacterClass(models.Model):
     def __str__(self):
         return 'Class ' + self.name
 
-    name = models.CharField(max_length=100, blank=False)
+    name = models.CharField(max_length=100, null=False)
 
 class Ability(models.Model):
 
@@ -20,9 +20,17 @@ class Ability(models.Model):
         DIVINE_SPELL = 'Divine Spell'
         FEAT = 'Feat'
 
-    name = models.CharField(max_length=200, blank=False, unique=True)
-    description = models.CharField(max_length=1000, blank=False)
-    level = models.IntegerField(blank=False)
+    name = models.CharField(max_length=200, null=False, unique=True)
+    description = models.CharField(max_length=1000, null=False)
+    range = models.CharField(max_length=200, null=True)
+    components = models.CharField(max_length=200, null=True)
+    ritual = models.BooleanField(null=False, default=False)
+    duration = models.CharField(max_length=200, null=True)
+    concentration = models.BooleanField(null=False, default=False)
+    castingTime = models.CharField(max_length=200, null=True)
+    level = models.IntegerField(null=False)
+    school = models.CharField(max_length=200, null=True)
+    spellClass = models.CharField(max_length=200, null=True)
     abilityType = models.CharField(
         max_length=100,
         choices=AbilityType.choices
@@ -33,20 +41,20 @@ class GameSession(models.Model):
     def __str__(self):
         return f'GameSession {self.id}'
 
-    name = models.CharField(max_length=100, blank=False)
-    description = models.CharField(max_length=100, blank=True)
-    code = models.CharField(max_length=100, blank=False, unique=True)
-    historic = models.BooleanField(blank=False, default=False)
+    name = models.CharField(max_length=100, null=False)
+    description = models.CharField(max_length=100, null=True)
+    code = models.CharField(max_length=100, null=False, unique=True)
+    historic = models.BooleanField(null=False, default=False)
 
 class Character(models.Model):
 
     def __str__(self):
         return 'Character ' + self.name
 
-    name = models.CharField(max_length=100, blank=False)
-    level = models.IntegerField(blank=False, default=1)
+    name = models.CharField(max_length=100, null=False)
+    level = models.IntegerField(null=False, default=1)
     characterClass = models.ManyToManyField(CharacterClass)
-    player = models.ForeignKey(User, on_delete=models.CASCADE, blank=False)
+    player = models.ForeignKey(User, on_delete=models.CASCADE, null=False)
     currentSession = models.ForeignKey(GameSession, on_delete=models.DO_NOTHING, null=True)
 
 class AbilityUse(models.Model):
@@ -54,9 +62,9 @@ class AbilityUse(models.Model):
     def __str__(self):
         return f'AbilityUse by {self.character.name} of {self.ability.name} at {self.timestamp}'
 
-    ability = models.ForeignKey(Ability, on_delete=models.CASCADE, blank=False)
-    character = models.ForeignKey(Character, on_delete=models.CASCADE, blank=False)
-    timestamp = models.DateTimeField(blank=False)
+    ability = models.ForeignKey(Ability, on_delete=models.CASCADE, null=False)
+    character = models.ForeignKey(Character, on_delete=models.CASCADE, null=False)
+    timestamp = models.DateTimeField(null=False)
 
 class LearnedAbility(models.Model):
 
@@ -69,9 +77,9 @@ class LearnedAbility(models.Model):
         CLERIC_SPELL = 'Cleric Spell'
         FEAT = 'Feat'
 
-    ability = models.ForeignKey(Ability, on_delete=models.CASCADE, blank=False)
-    character = models.ForeignKey(Character, on_delete=models.CASCADE, blank=False)
-    uses = models.IntegerField(blank=False)
+    ability = models.ForeignKey(Ability, on_delete=models.CASCADE, null=False)
+    character = models.ForeignKey(Character, on_delete=models.CASCADE, null=False)
+    uses = models.IntegerField(null=False)
     learnedType = models.CharField(
         max_length=100,
         choices=LearnedType.choices

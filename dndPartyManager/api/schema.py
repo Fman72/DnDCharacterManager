@@ -29,7 +29,7 @@ class CharacterType(DjangoObjectType):
         model = models.Character
         fields = ('id', 'name', 'level', 'characterClass', 'player')
         interfaces = (relay.Node, )
-        filter_fields = ['name', 'level', 'characterClass', 'player']
+        filter_fields = ['id', 'name', 'level', 'characterClass', 'player']
 
         @classmethod
         def get_node(cls, info, id):

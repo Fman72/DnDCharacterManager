@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'graphene_django',
     'django_filters',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -53,6 +54,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'dndPartyManager.urls'
@@ -139,3 +141,7 @@ REST_FRAMEWORK = {
 GRAPHENE = {
     "SCHEMA": "dndPartyManager.schema.schema"
 }
+
+CORS_ALLOWED_ORIGINS = [
+    "http://127.0.0.1:3000"
+]

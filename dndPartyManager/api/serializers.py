@@ -13,7 +13,21 @@ class AbilitySerializer(serializers.ModelSerializer):
     
     class Meta:
         model = models.Ability
-        fields = ['name', 'description', 'level', 'abilityType']
+        fields = [
+            'name',
+            'description',
+            'level',
+            'abilityType',
+            'range',
+            'components',
+            'ritual',
+            'duration',
+            'concentration',
+            'castingTime',
+            'level',
+            'school',
+            'spellClass',
+        ]
 
 class GameSessionSerializer(serializers.ModelSerializer):
     
