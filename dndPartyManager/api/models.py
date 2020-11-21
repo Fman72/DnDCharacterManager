@@ -21,7 +21,7 @@ class Ability(models.Model):
         FEAT = 'Feat'
 
     name = models.CharField(max_length=200, null=False, unique=True)
-    description = models.CharField(max_length=1000, null=False)
+    description = models.CharField(max_length=5000, null=False)
     range = models.CharField(max_length=200, null=True)
     components = models.CharField(max_length=200, null=True)
     ritual = models.BooleanField(null=False, default=False)
@@ -31,10 +31,21 @@ class Ability(models.Model):
     level = models.IntegerField(null=False)
     school = models.CharField(max_length=200, null=True)
     spellClass = models.CharField(max_length=200, null=True)
-    abilityType = models.CharField(
-        max_length=100,
-        choices=AbilityType.choices
-    )
+    material = models.CharField(max_length=1000, null=True)
+    oaths = models.CharField(max_length=200, null=True)
+    patrons = models.CharField(max_length=200, null=True)
+    higherLevel = models.CharField(max_length=5000, null=True)
+    domains = models.CharField(max_length=200, null=True)
+    circles = models.CharField(max_length=200, null=True)
+    archetype = models.CharField(max_length=200, null=True)
+
+class AbilityClass(models.Model):
+
+    def __str__(self):
+        return 'AbilityClass ' + self.id
+
+    ability = models.ForeignKey(Ability, on_delete=models.CASCADE, null=False)
+    characterClass = models.ForeignKey(CharacterClass, on_delete=models.CASCADE, null=False)
 
 class GameSession(models.Model):
 
