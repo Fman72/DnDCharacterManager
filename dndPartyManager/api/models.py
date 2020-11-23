@@ -38,6 +38,7 @@ class Ability(models.Model):
     domains = models.CharField(max_length=200, null=True)
     circles = models.CharField(max_length=200, null=True)
     archetype = models.CharField(max_length=200, null=True)
+    characterClasses = models.ManyToManyField(CharacterClass, through='AbilityClass')
 
 class AbilityClass(models.Model):
 
@@ -46,6 +47,7 @@ class AbilityClass(models.Model):
 
     ability = models.ForeignKey(Ability, on_delete=models.CASCADE, null=False)
     characterClass = models.ForeignKey(CharacterClass, on_delete=models.CASCADE, null=False)
+    unique_together = [['ability', 'characterClass']]
 
 class GameSession(models.Model):
 
@@ -95,8 +97,5 @@ class LearnedAbility(models.Model):
         max_length=100,
         choices=LearnedType.choices
     )
-    # class Meta:
-    #     constraints = [
-    #         models.UniqueConstraint(ability, character),
-    #     ]
+    unique_together = [['ability', 'character']]
     

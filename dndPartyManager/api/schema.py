@@ -1,9 +1,10 @@
-from graphene import relay, List, Field, String, ObjectType, Schema
+from graphene import relay, List, Field, String, ObjectType, Schema, Int
 from graphene_django import DjangoObjectType
 from graphene_django.filter import DjangoFilterConnectionField
 from graphene_django.rest_framework.mutation import SerializerMutation
 from . import models
 from . import serializers
+from . import service
 
 
 class CharacterClassType(DjangoObjectType):
@@ -16,12 +17,11 @@ class CharacterClassType(DjangoObjectType):
 class AbilityType(DjangoObjectType):
     class Meta:
         model = models.Ability
-        fields = ('id', 'name', 'description', 'level', 'abilityType')
+        fields = ('id', 'name', 'description', 'level')
         interfaces = (relay.Node, )
         filter_fields = {
             'name': ['icontains', 'istartswith', 'iendswith', 'exact'],
             'level': ['exact'],
-            'abilityType': ['exact']
         }
 
 class CharacterType(DjangoObjectType):
@@ -75,6 +75,11 @@ class Query(ObjectType):
     allCharacters = DjangoFilterConnectionField(CharacterType)
     allAbilityUses = DjangoFilterConnectionField(AbilityUseType)
     allLearnedAbilities = DjangoFilterConnectionField(LearnedAbilityType)
+
+    allAbilitiesForClasses = List(AbilityType, classes=List(Int))
+
+    def resolve_allAbilitiesForClasses(root, info, classes):
+        return service.getAllAbilitiesForClasses(classes)
 
 
 class CharacterMutation(SerializerMutation):

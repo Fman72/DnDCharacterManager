@@ -1,0 +1,8738 @@
+[
+    {
+        "model": "api.abilityClass",
+        "pk": 1,
+        "fields": {
+            "characterClass": 11,
+            "ability": 1
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 2,
+        "fields": {
+            "characterClass": 1,
+            "ability": 1
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 3,
+        "fields": {
+            "characterClass": 6,
+            "ability": 2
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 4,
+        "fields": {
+            "characterClass": 9,
+            "ability": 2
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 5,
+        "fields": {
+            "characterClass": 1,
+            "ability": 2
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 6,
+        "fields": {
+            "characterClass": 11,
+            "ability": 3
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 7,
+        "fields": {
+            "characterClass": 1,
+            "ability": 3
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 8,
+        "fields": {
+            "characterClass": 11,
+            "ability": 4
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 9,
+        "fields": {
+            "characterClass": 1,
+            "ability": 4
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 10,
+        "fields": {
+            "characterClass": 2,
+            "ability": 5
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 11,
+        "fields": {
+            "characterClass": 8,
+            "ability": 5
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 12,
+        "fields": {
+            "characterClass": 9,
+            "ability": 6
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 14,
+        "fields": {
+            "characterClass": 1,
+            "ability": 6
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 15,
+        "fields": {
+            "characterClass": 11,
+            "ability": 7
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 16,
+        "fields": {
+            "characterClass": 1,
+            "ability": 7
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 17,
+        "fields": {
+            "characterClass": 5,
+            "ability": 8
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 18,
+        "fields": {
+            "characterClass": 2,
+            "ability": 8
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 19,
+        "fields": {
+            "characterClass": 6,
+            "ability": 8
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 20,
+        "fields": {
+            "characterClass": 9,
+            "ability": 8
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 21,
+        "fields": {
+            "characterClass": 5,
+            "ability": 9
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 22,
+        "fields": {
+            "characterClass": 6,
+            "ability": 9
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 23,
+        "fields": {
+            "characterClass": 9,
+            "ability": 9
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 25,
+        "fields": {
+            "characterClass": 6,
+            "ability": 10
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 26,
+        "fields": {
+            "characterClass": 2,
+            "ability": 11
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 27,
+        "fields": {
+            "characterClass": 1,
+            "ability": 11
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 28,
+        "fields": {
+            "characterClass": 5,
+            "ability": 12
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 29,
+        "fields": {
+            "characterClass": 11,
+            "ability": 12
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 30,
+        "fields": {
+            "characterClass": 1,
+            "ability": 12
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 31,
+        "fields": {
+            "characterClass": 6,
+            "ability": 13
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 32,
+        "fields": {
+            "characterClass": 2,
+            "ability": 14
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 33,
+        "fields": {
+            "characterClass": 1,
+            "ability": 14
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 34,
+        "fields": {
+            "characterClass": 6,
+            "ability": 15
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 35,
+        "fields": {
+            "characterClass": 1,
+            "ability": 15
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 36,
+        "fields": {
+            "characterClass": 2,
+            "ability": 16
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 37,
+        "fields": {
+            "characterClass": 1,
+            "ability": 16
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 38,
+        "fields": {
+            "characterClass": 11,
+            "ability": 17
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 39,
+        "fields": {
+            "characterClass": 12,
+            "ability": 17
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 40,
+        "fields": {
+            "characterClass": 1,
+            "ability": 17
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 41,
+        "fields": {
+            "characterClass": 1,
+            "ability": 18
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 42,
+        "fields": {
+            "characterClass": 12,
+            "ability": 19
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 43,
+        "fields": {
+            "characterClass": 12,
+            "ability": 20
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 44,
+        "fields": {
+            "characterClass": 2,
+            "ability": 21
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 45,
+        "fields": {
+            "characterClass": 12,
+            "ability": 21
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 46,
+        "fields": {
+            "characterClass": 1,
+            "ability": 21
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 47,
+        "fields": {
+            "characterClass": 2,
+            "ability": 22
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 49,
+        "fields": {
+            "characterClass": 8,
+            "ability": 23
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 50,
+        "fields": {
+            "characterClass": 8,
+            "ability": 24
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 51,
+        "fields": {
+            "characterClass": 8,
+            "ability": 25
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 52,
+        "fields": {
+            "characterClass": 5,
+            "ability": 26
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 53,
+        "fields": {
+            "characterClass": 6,
+            "ability": 26
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 54,
+        "fields": {
+            "characterClass": 5,
+            "ability": 27
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 55,
+        "fields": {
+            "characterClass": 2,
+            "ability": 27
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 56,
+        "fields": {
+            "characterClass": 8,
+            "ability": 27
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 57,
+        "fields": {
+            "characterClass": 8,
+            "ability": 28
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 58,
+        "fields": {
+            "characterClass": 2,
+            "ability": 29
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 59,
+        "fields": {
+            "characterClass": 8,
+            "ability": 29
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 60,
+        "fields": {
+            "characterClass": 11,
+            "ability": 29
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 61,
+        "fields": {
+            "characterClass": 12,
+            "ability": 29
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 62,
+        "fields": {
+            "characterClass": 1,
+            "ability": 29
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 63,
+        "fields": {
+            "characterClass": 2,
+            "ability": 30
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 64,
+        "fields": {
+            "characterClass": 6,
+            "ability": 30
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 65,
+        "fields": {
+            "characterClass": 9,
+            "ability": 30
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 66,
+        "fields": {
+            "characterClass": 2,
+            "ability": 31
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 67,
+        "fields": {
+            "characterClass": 8,
+            "ability": 31
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 68,
+        "fields": {
+            "characterClass": 6,
+            "ability": 32
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 69,
+        "fields": {
+            "characterClass": 9,
+            "ability": 32
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 70,
+        "fields": {
+            "characterClass": 1,
+            "ability": 32
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 71,
+        "fields": {
+            "characterClass": 6,
+            "ability": 33
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 72,
+        "fields": {
+            "characterClass": 9,
+            "ability": 33
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 74,
+        "fields": {
+            "characterClass": 5,
+            "ability": 34
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 75,
+        "fields": {
+            "characterClass": 2,
+            "ability": 34
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 76,
+        "fields": {
+            "characterClass": 1,
+            "ability": 34
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 77,
+        "fields": {
+            "characterClass": 1,
+            "ability": 35
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 78,
+        "fields": {
+            "characterClass": 2,
+            "ability": 36
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 79,
+        "fields": {
+            "characterClass": 5,
+            "ability": 37
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 80,
+        "fields": {
+            "characterClass": 11,
+            "ability": 37
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 81,
+        "fields": {
+            "characterClass": 12,
+            "ability": 37
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 82,
+        "fields": {
+            "characterClass": 1,
+            "ability": 37
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 83,
+        "fields": {
+            "characterClass": 2,
+            "ability": 38
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 84,
+        "fields": {
+            "characterClass": 8,
+            "ability": 38
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 85,
+        "fields": {
+            "characterClass": 6,
+            "ability": 39
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 86,
+        "fields": {
+            "characterClass": 11,
+            "ability": 39
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 87,
+        "fields": {
+            "characterClass": 12,
+            "ability": 39
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 88,
+        "fields": {
+            "characterClass": 1,
+            "ability": 39
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 89,
+        "fields": {
+            "characterClass": 8,
+            "ability": 40
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 90,
+        "fields": {
+            "characterClass": 5,
+            "ability": 41
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 91,
+        "fields": {
+            "characterClass": 2,
+            "ability": 41
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 92,
+        "fields": {
+            "characterClass": 11,
+            "ability": 41
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 93,
+        "fields": {
+            "characterClass": 12,
+            "ability": 41
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 94,
+        "fields": {
+            "characterClass": 1,
+            "ability": 41
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 95,
+        "fields": {
+            "characterClass": 2,
+            "ability": 42
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 96,
+        "fields": {
+            "characterClass": 11,
+            "ability": 42
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 97,
+        "fields": {
+            "characterClass": 12,
+            "ability": 42
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 98,
+        "fields": {
+            "characterClass": 1,
+            "ability": 42
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 99,
+        "fields": {
+            "characterClass": 6,
+            "ability": 43
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 100,
+        "fields": {
+            "characterClass": 11,
+            "ability": 43
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 101,
+        "fields": {
+            "characterClass": 1,
+            "ability": 43
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 102,
+        "fields": {
+            "characterClass": 6,
+            "ability": 44
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 103,
+        "fields": {
+            "characterClass": 11,
+            "ability": 45
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 104,
+        "fields": {
+            "characterClass": 12,
+            "ability": 45
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 105,
+        "fields": {
+            "characterClass": 1,
+            "ability": 45
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 106,
+        "fields": {
+            "characterClass": 8,
+            "ability": 46
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 107,
+        "fields": {
+            "characterClass": 2,
+            "ability": 47
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 108,
+        "fields": {
+            "characterClass": 11,
+            "ability": 47
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 109,
+        "fields": {
+            "characterClass": 12,
+            "ability": 47
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 110,
+        "fields": {
+            "characterClass": 1,
+            "ability": 47
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 111,
+        "fields": {
+            "characterClass": 2,
+            "ability": 48
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 112,
+        "fields": {
+            "characterClass": 6,
+            "ability": 48
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 113,
+        "fields": {
+            "characterClass": 5,
+            "ability": 49
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 114,
+        "fields": {
+            "characterClass": 2,
+            "ability": 49
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 115,
+        "fields": {
+            "characterClass": 12,
+            "ability": 49
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 116,
+        "fields": {
+            "characterClass": 11,
+            "ability": 50
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 117,
+        "fields": {
+            "characterClass": 1,
+            "ability": 50
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 118,
+        "fields": {
+            "characterClass": 11,
+            "ability": 51
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 119,
+        "fields": {
+            "characterClass": 1,
+            "ability": 51
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 120,
+        "fields": {
+            "characterClass": 5,
+            "ability": 52
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 121,
+        "fields": {
+            "characterClass": 2,
+            "ability": 52
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 122,
+        "fields": {
+            "characterClass": 6,
+            "ability": 52
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 123,
+        "fields": {
+            "characterClass": 11,
+            "ability": 52
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 124,
+        "fields": {
+            "characterClass": 12,
+            "ability": 52
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 125,
+        "fields": {
+            "characterClass": 1,
+            "ability": 52
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 126,
+        "fields": {
+            "characterClass": 11,
+            "ability": 53
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 127,
+        "fields": {
+            "characterClass": 12,
+            "ability": 53
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 128,
+        "fields": {
+            "characterClass": 1,
+            "ability": 53
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 129,
+        "fields": {
+            "characterClass": 11,
+            "ability": 54
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 130,
+        "fields": {
+            "characterClass": 1,
+            "ability": 54
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 131,
+        "fields": {
+            "characterClass": 11,
+            "ability": 55
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 132,
+        "fields": {
+            "characterClass": 12,
+            "ability": 55
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 133,
+        "fields": {
+            "characterClass": 1,
+            "ability": 55
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 134,
+        "fields": {
+            "characterClass": 8,
+            "ability": 56
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 135,
+        "fields": {
+            "characterClass": 5,
+            "ability": 57
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 136,
+        "fields": {
+            "characterClass": 2,
+            "ability": 57
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 137,
+        "fields": {
+            "characterClass": 11,
+            "ability": 57
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 138,
+        "fields": {
+            "characterClass": 12,
+            "ability": 57
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 139,
+        "fields": {
+            "characterClass": 1,
+            "ability": 57
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 140,
+        "fields": {
+            "characterClass": 1,
+            "ability": 58
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 141,
+        "fields": {
+            "characterClass": 5,
+            "ability": 59
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 142,
+        "fields": {
+            "characterClass": 11,
+            "ability": 59
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 143,
+        "fields": {
+            "characterClass": 12,
+            "ability": 59
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 144,
+        "fields": {
+            "characterClass": 1,
+            "ability": 59
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 145,
+        "fields": {
+            "characterClass": 6,
+            "ability": 60
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 146,
+        "fields": {
+            "characterClass": 11,
+            "ability": 60
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 147,
+        "fields": {
+            "characterClass": 1,
+            "ability": 60
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 148,
+        "fields": {
+            "characterClass": 11,
+            "ability": 61
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 149,
+        "fields": {
+            "characterClass": 1,
+            "ability": 61
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 150,
+        "fields": {
+            "characterClass": 2,
+            "ability": 62
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 151,
+        "fields": {
+            "characterClass": 8,
+            "ability": 62
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 152,
+        "fields": {
+            "characterClass": 12,
+            "ability": 62
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 153,
+        "fields": {
+            "characterClass": 2,
+            "ability": 63
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 154,
+        "fields": {
+            "characterClass": 8,
+            "ability": 63
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 156,
+        "fields": {
+            "characterClass": 6,
+            "ability": 64
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 157,
+        "fields": {
+            "characterClass": 8,
+            "ability": 64
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 158,
+        "fields": {
+            "characterClass": 9,
+            "ability": 64
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 160,
+        "fields": {
+            "characterClass": 8,
+            "ability": 65
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 161,
+        "fields": {
+            "characterClass": 5,
+            "ability": 66
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 163,
+        "fields": {
+            "characterClass": 11,
+            "ability": 66
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 164,
+        "fields": {
+            "characterClass": 12,
+            "ability": 66
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 165,
+        "fields": {
+            "characterClass": 1,
+            "ability": 66
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 166,
+        "fields": {
+            "characterClass": 5,
+            "ability": 67
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 167,
+        "fields": {
+            "characterClass": 6,
+            "ability": 68
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 168,
+        "fields": {
+            "characterClass": 11,
+            "ability": 68
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 169,
+        "fields": {
+            "characterClass": 1,
+            "ability": 68
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 170,
+        "fields": {
+            "characterClass": 5,
+            "ability": 69
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 171,
+        "fields": {
+            "characterClass": 2,
+            "ability": 69
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 172,
+        "fields": {
+            "characterClass": 6,
+            "ability": 69
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 173,
+        "fields": {
+            "characterClass": 11,
+            "ability": 69
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 174,
+        "fields": {
+            "characterClass": 1,
+            "ability": 69
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 175,
+        "fields": {
+            "characterClass": 6,
+            "ability": 70
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 176,
+        "fields": {
+            "characterClass": 9,
+            "ability": 70
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 177,
+        "fields": {
+            "characterClass": 9,
+            "ability": 71
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 178,
+        "fields": {
+            "characterClass": 2,
+            "ability": 72
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 179,
+        "fields": {
+            "characterClass": 6,
+            "ability": 73
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 180,
+        "fields": {
+            "characterClass": 1,
+            "ability": 73
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 181,
+        "fields": {
+            "characterClass": 6,
+            "ability": 74
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 182,
+        "fields": {
+            "characterClass": 12,
+            "ability": 74
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 183,
+        "fields": {
+            "characterClass": 6,
+            "ability": 75
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 184,
+        "fields": {
+            "characterClass": 1,
+            "ability": 75
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 185,
+        "fields": {
+            "characterClass": 9,
+            "ability": 76
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 186,
+        "fields": {
+            "characterClass": 6,
+            "ability": 77
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 187,
+        "fields": {
+            "characterClass": 9,
+            "ability": 77
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 189,
+        "fields": {
+            "characterClass": 12,
+            "ability": 78
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 190,
+        "fields": {
+            "characterClass": 1,
+            "ability": 78
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 191,
+        "fields": {
+            "characterClass": 2,
+            "ability": 79
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 192,
+        "fields": {
+            "characterClass": 6,
+            "ability": 79
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 193,
+        "fields": {
+            "characterClass": 1,
+            "ability": 80
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 194,
+        "fields": {
+            "characterClass": 2,
+            "ability": 81
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 195,
+        "fields": {
+            "characterClass": 1,
+            "ability": 81
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 196,
+        "fields": {
+            "characterClass": 6,
+            "ability": 82
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 197,
+        "fields": {
+            "characterClass": 11,
+            "ability": 82
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 198,
+        "fields": {
+            "characterClass": 1,
+            "ability": 82
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 199,
+        "fields": {
+            "characterClass": 2,
+            "ability": 83
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 200,
+        "fields": {
+            "characterClass": 6,
+            "ability": 83
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 201,
+        "fields": {
+            "characterClass": 1,
+            "ability": 83
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 202,
+        "fields": {
+            "characterClass": 2,
+            "ability": 84
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 203,
+        "fields": {
+            "characterClass": 6,
+            "ability": 84
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 204,
+        "fields": {
+            "characterClass": 1,
+            "ability": 84
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 205,
+        "fields": {
+            "characterClass": 6,
+            "ability": 85
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 206,
+        "fields": {
+            "characterClass": 11,
+            "ability": 85
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 207,
+        "fields": {
+            "characterClass": 1,
+            "ability": 85
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 208,
+        "fields": {
+            "characterClass": 9,
+            "ability": 86
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 209,
+        "fields": {
+            "characterClass": 11,
+            "ability": 87
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 210,
+        "fields": {
+            "characterClass": 12,
+            "ability": 87
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 211,
+        "fields": {
+            "characterClass": 1,
+            "ability": 87
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 212,
+        "fields": {
+            "characterClass": 6,
+            "ability": 88
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 213,
+        "fields": {
+            "characterClass": 11,
+            "ability": 88
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 214,
+        "fields": {
+            "characterClass": 12,
+            "ability": 88
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 215,
+        "fields": {
+            "characterClass": 1,
+            "ability": 88
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 216,
+        "fields": {
+            "characterClass": 2,
+            "ability": 89
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 217,
+        "fields": {
+            "characterClass": 6,
+            "ability": 89
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 218,
+        "fields": {
+            "characterClass": 8,
+            "ability": 89
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 219,
+        "fields": {
+            "characterClass": 2,
+            "ability": 90
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 220,
+        "fields": {
+            "characterClass": 6,
+            "ability": 90
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 221,
+        "fields": {
+            "characterClass": 2,
+            "ability": 91
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 222,
+        "fields": {
+            "characterClass": 12,
+            "ability": 91
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 223,
+        "fields": {
+            "characterClass": 1,
+            "ability": 91
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 224,
+        "fields": {
+            "characterClass": 11,
+            "ability": 92
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 225,
+        "fields": {
+            "characterClass": 1,
+            "ability": 92
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 226,
+        "fields": {
+            "characterClass": 5,
+            "ability": 93
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 227,
+        "fields": {
+            "characterClass": 11,
+            "ability": 93
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 228,
+        "fields": {
+            "characterClass": 12,
+            "ability": 93
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 229,
+        "fields": {
+            "characterClass": 1,
+            "ability": 93
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 230,
+        "fields": {
+            "characterClass": 2,
+            "ability": 94
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 231,
+        "fields": {
+            "characterClass": 8,
+            "ability": 94
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 232,
+        "fields": {
+            "characterClass": 5,
+            "ability": 95
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 233,
+        "fields": {
+            "characterClass": 2,
+            "ability": 95
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 234,
+        "fields": {
+            "characterClass": 6,
+            "ability": 95
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 235,
+        "fields": {
+            "characterClass": 8,
+            "ability": 95
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 236,
+        "fields": {
+            "characterClass": 9,
+            "ability": 95
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 237,
+        "fields": {
+            "characterClass": 5,
+            "ability": 96
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 238,
+        "fields": {
+            "characterClass": 11,
+            "ability": 96
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 239,
+        "fields": {
+            "characterClass": 1,
+            "ability": 96
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 240,
+        "fields": {
+            "characterClass": 6,
+            "ability": 97
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 241,
+        "fields": {
+            "characterClass": 11,
+            "ability": 97
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 242,
+        "fields": {
+            "characterClass": 12,
+            "ability": 97
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 243,
+        "fields": {
+            "characterClass": 1,
+            "ability": 97
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 244,
+        "fields": {
+            "characterClass": 6,
+            "ability": 98
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 245,
+        "fields": {
+            "characterClass": 9,
+            "ability": 98
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 246,
+        "fields": {
+            "characterClass": 11,
+            "ability": 98
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 247,
+        "fields": {
+            "characterClass": 1,
+            "ability": 98
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 248,
+        "fields": {
+            "characterClass": 2,
+            "ability": 99
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 249,
+        "fields": {
+            "characterClass": 6,
+            "ability": 99
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 250,
+        "fields": {
+            "characterClass": 8,
+            "ability": 99
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 251,
+        "fields": {
+            "characterClass": 9,
+            "ability": 99
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 252,
+        "fields": {
+            "characterClass": 11,
+            "ability": 99
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 253,
+        "fields": {
+            "characterClass": 2,
+            "ability": 100
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 254,
+        "fields": {
+            "characterClass": 8,
+            "ability": 100
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 255,
+        "fields": {
+            "characterClass": 11,
+            "ability": 101
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 256,
+        "fields": {
+            "characterClass": 1,
+            "ability": 101
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 257,
+        "fields": {
+            "characterClass": 12,
+            "ability": 102
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 258,
+        "fields": {
+            "characterClass": 1,
+            "ability": 102
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 259,
+        "fields": {
+            "characterClass": 2,
+            "ability": 103
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 260,
+        "fields": {
+            "characterClass": 8,
+            "ability": 103
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 261,
+        "fields": {
+            "characterClass": 2,
+            "ability": 104
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 262,
+        "fields": {
+            "characterClass": 8,
+            "ability": 104
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 263,
+        "fields": {
+            "characterClass": 5,
+            "ability": 105
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 264,
+        "fields": {
+            "characterClass": 2,
+            "ability": 105
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 265,
+        "fields": {
+            "characterClass": 6,
+            "ability": 105
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 266,
+        "fields": {
+            "characterClass": 8,
+            "ability": 105
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 267,
+        "fields": {
+            "characterClass": 9,
+            "ability": 105
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 269,
+        "fields": {
+            "characterClass": 11,
+            "ability": 105
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 270,
+        "fields": {
+            "characterClass": 1,
+            "ability": 105
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 271,
+        "fields": {
+            "characterClass": 2,
+            "ability": 106
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 272,
+        "fields": {
+            "characterClass": 6,
+            "ability": 106
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 273,
+        "fields": {
+            "characterClass": 8,
+            "ability": 106
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 274,
+        "fields": {
+            "characterClass": 9,
+            "ability": 106
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 276,
+        "fields": {
+            "characterClass": 5,
+            "ability": 107
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 277,
+        "fields": {
+            "characterClass": 11,
+            "ability": 107
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 278,
+        "fields": {
+            "characterClass": 12,
+            "ability": 107
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 279,
+        "fields": {
+            "characterClass": 1,
+            "ability": 107
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 280,
+        "fields": {
+            "characterClass": 5,
+            "ability": 108
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 281,
+        "fields": {
+            "characterClass": 2,
+            "ability": 108
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 282,
+        "fields": {
+            "characterClass": 8,
+            "ability": 108
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 283,
+        "fields": {
+            "characterClass": 11,
+            "ability": 108
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 284,
+        "fields": {
+            "characterClass": 12,
+            "ability": 108
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 285,
+        "fields": {
+            "characterClass": 1,
+            "ability": 108
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 286,
+        "fields": {
+            "characterClass": 5,
+            "ability": 109
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 287,
+        "fields": {
+            "characterClass": 2,
+            "ability": 109
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 288,
+        "fields": {
+            "characterClass": 11,
+            "ability": 109
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 289,
+        "fields": {
+            "characterClass": 1,
+            "ability": 109
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 290,
+        "fields": {
+            "characterClass": 11,
+            "ability": 110
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 291,
+        "fields": {
+            "characterClass": 1,
+            "ability": 110
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 292,
+        "fields": {
+            "characterClass": 2,
+            "ability": 111
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 293,
+        "fields": {
+            "characterClass": 8,
+            "ability": 111
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 294,
+        "fields": {
+            "characterClass": 5,
+            "ability": 112
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 295,
+        "fields": {
+            "characterClass": 2,
+            "ability": 112
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 296,
+        "fields": {
+            "characterClass": 6,
+            "ability": 112
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 297,
+        "fields": {
+            "characterClass": 8,
+            "ability": 112
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 298,
+        "fields": {
+            "characterClass": 11,
+            "ability": 112
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 299,
+        "fields": {
+            "characterClass": 12,
+            "ability": 112
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 300,
+        "fields": {
+            "characterClass": 1,
+            "ability": 112
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 301,
+        "fields": {
+            "characterClass": 5,
+            "ability": 113
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 302,
+        "fields": {
+            "characterClass": 12,
+            "ability": 113
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 303,
+        "fields": {
+            "characterClass": 2,
+            "ability": 114
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 304,
+        "fields": {
+            "characterClass": 6,
+            "ability": 114
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 306,
+        "fields": {
+            "characterClass": 2,
+            "ability": 115
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 307,
+        "fields": {
+            "characterClass": 8,
+            "ability": 115
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 308,
+        "fields": {
+            "characterClass": 2,
+            "ability": 116
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 309,
+        "fields": {
+            "characterClass": 2,
+            "ability": 117
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 310,
+        "fields": {
+            "characterClass": 6,
+            "ability": 117
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 311,
+        "fields": {
+            "characterClass": 11,
+            "ability": 117
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 312,
+        "fields": {
+            "characterClass": 12,
+            "ability": 117
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 314,
+        "fields": {
+            "characterClass": 1,
+            "ability": 118
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 315,
+        "fields": {
+            "characterClass": 5,
+            "ability": 119
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 316,
+        "fields": {
+            "characterClass": 11,
+            "ability": 119
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 317,
+        "fields": {
+            "characterClass": 12,
+            "ability": 119
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 318,
+        "fields": {
+            "characterClass": 1,
+            "ability": 119
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 319,
+        "fields": {
+            "characterClass": 5,
+            "ability": 120
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 320,
+        "fields": {
+            "characterClass": 2,
+            "ability": 120
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 321,
+        "fields": {
+            "characterClass": 11,
+            "ability": 120
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 322,
+        "fields": {
+            "characterClass": 12,
+            "ability": 120
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 323,
+        "fields": {
+            "characterClass": 1,
+            "ability": 120
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 324,
+        "fields": {
+            "characterClass": 5,
+            "ability": 121
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 325,
+        "fields": {
+            "characterClass": 6,
+            "ability": 121
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 326,
+        "fields": {
+            "characterClass": 12,
+            "ability": 121
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 327,
+        "fields": {
+            "characterClass": 1,
+            "ability": 121
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 328,
+        "fields": {
+            "characterClass": 6,
+            "ability": 122
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 329,
+        "fields": {
+            "characterClass": 6,
+            "ability": 123
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 330,
+        "fields": {
+            "characterClass": 11,
+            "ability": 123
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 331,
+        "fields": {
+            "characterClass": 1,
+            "ability": 123
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 332,
+        "fields": {
+            "characterClass": 5,
+            "ability": 124
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 333,
+        "fields": {
+            "characterClass": 6,
+            "ability": 124
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 334,
+        "fields": {
+            "characterClass": 11,
+            "ability": 124
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 335,
+        "fields": {
+            "characterClass": 1,
+            "ability": 124
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 336,
+        "fields": {
+            "characterClass": 6,
+            "ability": 125
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 337,
+        "fields": {
+            "characterClass": 11,
+            "ability": 125
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 338,
+        "fields": {
+            "characterClass": 12,
+            "ability": 125
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 339,
+        "fields": {
+            "characterClass": 1,
+            "ability": 125
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 340,
+        "fields": {
+            "characterClass": 2,
+            "ability": 126
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 341,
+        "fields": {
+            "characterClass": 6,
+            "ability": 126
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 342,
+        "fields": {
+            "characterClass": 11,
+            "ability": 126
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 343,
+        "fields": {
+            "characterClass": 12,
+            "ability": 127
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 344,
+        "fields": {
+            "characterClass": 6,
+            "ability": 128
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 345,
+        "fields": {
+            "characterClass": 12,
+            "ability": 128
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 346,
+        "fields": {
+            "characterClass": 1,
+            "ability": 128
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 347,
+        "fields": {
+            "characterClass": 8,
+            "ability": 129
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 348,
+        "fields": {
+            "characterClass": 5,
+            "ability": 130
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 349,
+        "fields": {
+            "characterClass": 2,
+            "ability": 130
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 350,
+        "fields": {
+            "characterClass": 6,
+            "ability": 130
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 351,
+        "fields": {
+            "characterClass": 11,
+            "ability": 130
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 352,
+        "fields": {
+            "characterClass": 11,
+            "ability": 131
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 353,
+        "fields": {
+            "characterClass": 1,
+            "ability": 131
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 354,
+        "fields": {
+            "characterClass": 8,
+            "ability": 132
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 355,
+        "fields": {
+            "characterClass": 9,
+            "ability": 132
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 356,
+        "fields": {
+            "characterClass": 6,
+            "ability": 133
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 357,
+        "fields": {
+            "characterClass": 5,
+            "ability": 134
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 358,
+        "fields": {
+            "characterClass": 12,
+            "ability": 134
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 359,
+        "fields": {
+            "characterClass": 6,
+            "ability": 135
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 360,
+        "fields": {
+            "characterClass": 11,
+            "ability": 135
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 361,
+        "fields": {
+            "characterClass": 1,
+            "ability": 135
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 362,
+        "fields": {
+            "characterClass": 5,
+            "ability": 136
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 363,
+        "fields": {
+            "characterClass": 2,
+            "ability": 136
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 364,
+        "fields": {
+            "characterClass": 11,
+            "ability": 136
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 365,
+        "fields": {
+            "characterClass": 12,
+            "ability": 136
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 366,
+        "fields": {
+            "characterClass": 1,
+            "ability": 136
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 367,
+        "fields": {
+            "characterClass": 12,
+            "ability": 137
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 368,
+        "fields": {
+            "characterClass": 1,
+            "ability": 137
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 369,
+        "fields": {
+            "characterClass": 11,
+            "ability": 138
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 370,
+        "fields": {
+            "characterClass": 12,
+            "ability": 138
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 371,
+        "fields": {
+            "characterClass": 1,
+            "ability": 138
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 372,
+        "fields": {
+            "characterClass": 5,
+            "ability": 139
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 373,
+        "fields": {
+            "characterClass": 11,
+            "ability": 139
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 374,
+        "fields": {
+            "characterClass": 12,
+            "ability": 139
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 375,
+        "fields": {
+            "characterClass": 1,
+            "ability": 139
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 376,
+        "fields": {
+            "characterClass": 1,
+            "ability": 140
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 377,
+        "fields": {
+            "characterClass": 5,
+            "ability": 141
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 378,
+        "fields": {
+            "characterClass": 2,
+            "ability": 141
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 379,
+        "fields": {
+            "characterClass": 6,
+            "ability": 141
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 380,
+        "fields": {
+            "characterClass": 12,
+            "ability": 141
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 381,
+        "fields": {
+            "characterClass": 11,
+            "ability": 142
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 382,
+        "fields": {
+            "characterClass": 1,
+            "ability": 142
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 383,
+        "fields": {
+            "characterClass": 5,
+            "ability": 143
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 384,
+        "fields": {
+            "characterClass": 11,
+            "ability": 143
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 385,
+        "fields": {
+            "characterClass": 12,
+            "ability": 143
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 386,
+        "fields": {
+            "characterClass": 1,
+            "ability": 143
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 387,
+        "fields": {
+            "characterClass": 5,
+            "ability": 144
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 388,
+        "fields": {
+            "characterClass": 11,
+            "ability": 144
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 389,
+        "fields": {
+            "characterClass": 1,
+            "ability": 144
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 390,
+        "fields": {
+            "characterClass": 5,
+            "ability": 145
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 391,
+        "fields": {
+            "characterClass": 6,
+            "ability": 145
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 392,
+        "fields": {
+            "characterClass": 12,
+            "ability": 145
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 393,
+        "fields": {
+            "characterClass": 1,
+            "ability": 145
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 394,
+        "fields": {
+            "characterClass": 5,
+            "ability": 146
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 395,
+        "fields": {
+            "characterClass": 2,
+            "ability": 146
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 396,
+        "fields": {
+            "characterClass": 6,
+            "ability": 146
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 398,
+        "fields": {
+            "characterClass": 1,
+            "ability": 146
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 400,
+        "fields": {
+            "characterClass": 1,
+            "ability": 147
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 401,
+        "fields": {
+            "characterClass": 8,
+            "ability": 148
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 402,
+        "fields": {
+            "characterClass": 5,
+            "ability": 149
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 403,
+        "fields": {
+            "characterClass": 2,
+            "ability": 149
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 404,
+        "fields": {
+            "characterClass": 6,
+            "ability": 149
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 405,
+        "fields": {
+            "characterClass": 2,
+            "ability": 150
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 406,
+        "fields": {
+            "characterClass": 6,
+            "ability": 150
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 407,
+        "fields": {
+            "characterClass": 9,
+            "ability": 150
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 408,
+        "fields": {
+            "characterClass": 11,
+            "ability": 151
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 409,
+        "fields": {
+            "characterClass": 12,
+            "ability": 151
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 410,
+        "fields": {
+            "characterClass": 1,
+            "ability": 151
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 411,
+        "fields": {
+            "characterClass": 2,
+            "ability": 152
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 412,
+        "fields": {
+            "characterClass": 11,
+            "ability": 152
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 413,
+        "fields": {
+            "characterClass": 12,
+            "ability": 152
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 414,
+        "fields": {
+            "characterClass": 1,
+            "ability": 152
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 415,
+        "fields": {
+            "characterClass": 11,
+            "ability": 153
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 416,
+        "fields": {
+            "characterClass": 1,
+            "ability": 153
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 417,
+        "fields": {
+            "characterClass": 12,
+            "ability": 154
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 418,
+        "fields": {
+            "characterClass": 1,
+            "ability": 154
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 419,
+        "fields": {
+            "characterClass": 2,
+            "ability": 155
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 420,
+        "fields": {
+            "characterClass": 6,
+            "ability": 155
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 421,
+        "fields": {
+            "characterClass": 11,
+            "ability": 155
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 422,
+        "fields": {
+            "characterClass": 6,
+            "ability": 156
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 423,
+        "fields": {
+            "characterClass": 9,
+            "ability": 156
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 424,
+        "fields": {
+            "characterClass": 11,
+            "ability": 156
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 425,
+        "fields": {
+            "characterClass": 1,
+            "ability": 156
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 426,
+        "fields": {
+            "characterClass": 6,
+            "ability": 157
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 427,
+        "fields": {
+            "characterClass": 2,
+            "ability": 158
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 428,
+        "fields": {
+            "characterClass": 8,
+            "ability": 158
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 429,
+        "fields": {
+            "characterClass": 12,
+            "ability": 158
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 430,
+        "fields": {
+            "characterClass": 2,
+            "ability": 159
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 431,
+        "fields": {
+            "characterClass": 6,
+            "ability": 159
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 432,
+        "fields": {
+            "characterClass": 1,
+            "ability": 159
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 433,
+        "fields": {
+            "characterClass": 12,
+            "ability": 160
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 434,
+        "fields": {
+            "characterClass": 1,
+            "ability": 160
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 435,
+        "fields": {
+            "characterClass": 11,
+            "ability": 161
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 436,
+        "fields": {
+            "characterClass": 12,
+            "ability": 161
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 437,
+        "fields": {
+            "characterClass": 1,
+            "ability": 161
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 438,
+        "fields": {
+            "characterClass": 2,
+            "ability": 162
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 439,
+        "fields": {
+            "characterClass": 6,
+            "ability": 162
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 440,
+        "fields": {
+            "characterClass": 9,
+            "ability": 162
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 441,
+        "fields": {
+            "characterClass": 11,
+            "ability": 162
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 442,
+        "fields": {
+            "characterClass": 1,
+            "ability": 162
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 443,
+        "fields": {
+            "characterClass": 2,
+            "ability": 163
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 445,
+        "fields": {
+            "characterClass": 5,
+            "ability": 164
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 446,
+        "fields": {
+            "characterClass": 12,
+            "ability": 164
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 447,
+        "fields": {
+            "characterClass": 1,
+            "ability": 164
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 448,
+        "fields": {
+            "characterClass": 5,
+            "ability": 165
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 449,
+        "fields": {
+            "characterClass": 6,
+            "ability": 165
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 450,
+        "fields": {
+            "characterClass": 12,
+            "ability": 165
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 451,
+        "fields": {
+            "characterClass": 1,
+            "ability": 165
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 452,
+        "fields": {
+            "characterClass": 5,
+            "ability": 166
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 453,
+        "fields": {
+            "characterClass": 2,
+            "ability": 166
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 454,
+        "fields": {
+            "characterClass": 6,
+            "ability": 166
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 455,
+        "fields": {
+            "characterClass": 8,
+            "ability": 166
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 456,
+        "fields": {
+            "characterClass": 9,
+            "ability": 166
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 457,
+        "fields": {
+            "characterClass": 5,
+            "ability": 167
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 458,
+        "fields": {
+            "characterClass": 11,
+            "ability": 167
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 459,
+        "fields": {
+            "characterClass": 12,
+            "ability": 167
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 460,
+        "fields": {
+            "characterClass": 1,
+            "ability": 167
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 461,
+        "fields": {
+            "characterClass": 6,
+            "ability": 168
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 462,
+        "fields": {
+            "characterClass": 11,
+            "ability": 168
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 463,
+        "fields": {
+            "characterClass": 12,
+            "ability": 168
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 464,
+        "fields": {
+            "characterClass": 1,
+            "ability": 168
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 465,
+        "fields": {
+            "characterClass": 6,
+            "ability": 169
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 466,
+        "fields": {
+            "characterClass": 11,
+            "ability": 169
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 467,
+        "fields": {
+            "characterClass": 12,
+            "ability": 169
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 468,
+        "fields": {
+            "characterClass": 1,
+            "ability": 169
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 469,
+        "fields": {
+            "characterClass": 2,
+            "ability": 170
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 470,
+        "fields": {
+            "characterClass": 11,
+            "ability": 170
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 471,
+        "fields": {
+            "characterClass": 1,
+            "ability": 170
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 472,
+        "fields": {
+            "characterClass": 5,
+            "ability": 171
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 473,
+        "fields": {
+            "characterClass": 2,
+            "ability": 171
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 474,
+        "fields": {
+            "characterClass": 6,
+            "ability": 171
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 475,
+        "fields": {
+            "characterClass": 8,
+            "ability": 171
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 476,
+        "fields": {
+            "characterClass": 1,
+            "ability": 171
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 477,
+        "fields": {
+            "characterClass": 2,
+            "ability": 172
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 479,
+        "fields": {
+            "characterClass": 1,
+            "ability": 172
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 480,
+        "fields": {
+            "characterClass": 6,
+            "ability": 173
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 481,
+        "fields": {
+            "characterClass": 5,
+            "ability": 174
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 482,
+        "fields": {
+            "characterClass": 12,
+            "ability": 174
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 483,
+        "fields": {
+            "characterClass": 11,
+            "ability": 175
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 484,
+        "fields": {
+            "characterClass": 1,
+            "ability": 175
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 485,
+        "fields": {
+            "characterClass": 5,
+            "ability": 176
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 486,
+        "fields": {
+            "characterClass": 2,
+            "ability": 176
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 487,
+        "fields": {
+            "characterClass": 1,
+            "ability": 176
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 488,
+        "fields": {
+            "characterClass": 6,
+            "ability": 177
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 489,
+        "fields": {
+            "characterClass": 9,
+            "ability": 177
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 490,
+        "fields": {
+            "characterClass": 2,
+            "ability": 178
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 491,
+        "fields": {
+            "characterClass": 6,
+            "ability": 178
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 492,
+        "fields": {
+            "characterClass": 9,
+            "ability": 178
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 493,
+        "fields": {
+            "characterClass": 1,
+            "ability": 179
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 494,
+        "fields": {
+            "characterClass": 5,
+            "ability": 180
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 495,
+        "fields": {
+            "characterClass": 6,
+            "ability": 180
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 496,
+        "fields": {
+            "characterClass": 11,
+            "ability": 180
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 497,
+        "fields": {
+            "characterClass": 12,
+            "ability": 180
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 498,
+        "fields": {
+            "characterClass": 1,
+            "ability": 180
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 499,
+        "fields": {
+            "characterClass": 5,
+            "ability": 181
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 500,
+        "fields": {
+            "characterClass": 2,
+            "ability": 181
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 501,
+        "fields": {
+            "characterClass": 6,
+            "ability": 181
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 502,
+        "fields": {
+            "characterClass": 11,
+            "ability": 182
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 503,
+        "fields": {
+            "characterClass": 12,
+            "ability": 182
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 504,
+        "fields": {
+            "characterClass": 1,
+            "ability": 182
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 505,
+        "fields": {
+            "characterClass": 2,
+            "ability": 183
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 506,
+        "fields": {
+            "characterClass": 8,
+            "ability": 183
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 507,
+        "fields": {
+            "characterClass": 5,
+            "ability": 184
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 508,
+        "fields": {
+            "characterClass": 1,
+            "ability": 184
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 509,
+        "fields": {
+            "characterClass": 2,
+            "ability": 185
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 510,
+        "fields": {
+            "characterClass": 6,
+            "ability": 185
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 511,
+        "fields": {
+            "characterClass": 2,
+            "ability": 186
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 512,
+        "fields": {
+            "characterClass": 6,
+            "ability": 187
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 513,
+        "fields": {
+            "characterClass": 11,
+            "ability": 187
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 514,
+        "fields": {
+            "characterClass": 1,
+            "ability": 187
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 515,
+        "fields": {
+            "characterClass": 2,
+            "ability": 188
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 516,
+        "fields": {
+            "characterClass": 6,
+            "ability": 188
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 517,
+        "fields": {
+            "characterClass": 11,
+            "ability": 188
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 518,
+        "fields": {
+            "characterClass": 1,
+            "ability": 188
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 519,
+        "fields": {
+            "characterClass": 9,
+            "ability": 189
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 520,
+        "fields": {
+            "characterClass": 2,
+            "ability": 190
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 521,
+        "fields": {
+            "characterClass": 12,
+            "ability": 190
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 522,
+        "fields": {
+            "characterClass": 5,
+            "ability": 191
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 523,
+        "fields": {
+            "characterClass": 6,
+            "ability": 191
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 524,
+        "fields": {
+            "characterClass": 12,
+            "ability": 191
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 525,
+        "fields": {
+            "characterClass": 1,
+            "ability": 191
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 526,
+        "fields": {
+            "characterClass": 2,
+            "ability": 192
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 527,
+        "fields": {
+            "characterClass": 6,
+            "ability": 193
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 528,
+        "fields": {
+            "characterClass": 8,
+            "ability": 193
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 529,
+        "fields": {
+            "characterClass": 11,
+            "ability": 193
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 530,
+        "fields": {
+            "characterClass": 1,
+            "ability": 193
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 531,
+        "fields": {
+            "characterClass": 2,
+            "ability": 194
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 532,
+        "fields": {
+            "characterClass": 6,
+            "ability": 194
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 533,
+        "fields": {
+            "characterClass": 5,
+            "ability": 195
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 534,
+        "fields": {
+            "characterClass": 2,
+            "ability": 195
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 535,
+        "fields": {
+            "characterClass": 6,
+            "ability": 195
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 536,
+        "fields": {
+            "characterClass": 5,
+            "ability": 196
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 537,
+        "fields": {
+            "characterClass": 6,
+            "ability": 196
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 538,
+        "fields": {
+            "characterClass": 12,
+            "ability": 197
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 539,
+        "fields": {
+            "characterClass": 2,
+            "ability": 198
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 540,
+        "fields": {
+            "characterClass": 6,
+            "ability": 198
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 541,
+        "fields": {
+            "characterClass": 5,
+            "ability": 199
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 542,
+        "fields": {
+            "characterClass": 8,
+            "ability": 199
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 543,
+        "fields": {
+            "characterClass": 12,
+            "ability": 200
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 544,
+        "fields": {
+            "characterClass": 5,
+            "ability": 201
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 545,
+        "fields": {
+            "characterClass": 2,
+            "ability": 201
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 546,
+        "fields": {
+            "characterClass": 8,
+            "ability": 201
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 547,
+        "fields": {
+            "characterClass": 11,
+            "ability": 201
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 548,
+        "fields": {
+            "characterClass": 12,
+            "ability": 201
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 549,
+        "fields": {
+            "characterClass": 1,
+            "ability": 201
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 550,
+        "fields": {
+            "characterClass": 5,
+            "ability": 202
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 551,
+        "fields": {
+            "characterClass": 2,
+            "ability": 202
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 552,
+        "fields": {
+            "characterClass": 6,
+            "ability": 202
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 553,
+        "fields": {
+            "characterClass": 8,
+            "ability": 202
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 554,
+        "fields": {
+            "characterClass": 11,
+            "ability": 202
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 555,
+        "fields": {
+            "characterClass": 12,
+            "ability": 202
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 556,
+        "fields": {
+            "characterClass": 1,
+            "ability": 202
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 557,
+        "fields": {
+            "characterClass": 2,
+            "ability": 203
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 558,
+        "fields": {
+            "characterClass": 12,
+            "ability": 204
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 559,
+        "fields": {
+            "characterClass": 8,
+            "ability": 205
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 560,
+        "fields": {
+            "characterClass": 9,
+            "ability": 205
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 561,
+        "fields": {
+            "characterClass": 5,
+            "ability": 206
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 562,
+        "fields": {
+            "characterClass": 11,
+            "ability": 206
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 563,
+        "fields": {
+            "characterClass": 12,
+            "ability": 206
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 564,
+        "fields": {
+            "characterClass": 1,
+            "ability": 206
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 565,
+        "fields": {
+            "characterClass": 6,
+            "ability": 207
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 566,
+        "fields": {
+            "characterClass": 11,
+            "ability": 207
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 567,
+        "fields": {
+            "characterClass": 1,
+            "ability": 207
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 568,
+        "fields": {
+            "characterClass": 2,
+            "ability": 208
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 569,
+        "fields": {
+            "characterClass": 6,
+            "ability": 208
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 570,
+        "fields": {
+            "characterClass": 8,
+            "ability": 208
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 571,
+        "fields": {
+            "characterClass": 11,
+            "ability": 208
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 572,
+        "fields": {
+            "characterClass": 1,
+            "ability": 208
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 573,
+        "fields": {
+            "characterClass": 5,
+            "ability": 209
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 574,
+        "fields": {
+            "characterClass": 2,
+            "ability": 209
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 576,
+        "fields": {
+            "characterClass": 1,
+            "ability": 209
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 577,
+        "fields": {
+            "characterClass": 5,
+            "ability": 210
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 579,
+        "fields": {
+            "characterClass": 12,
+            "ability": 210
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 580,
+        "fields": {
+            "characterClass": 1,
+            "ability": 210
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 581,
+        "fields": {
+            "characterClass": 11,
+            "ability": 211
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 582,
+        "fields": {
+            "characterClass": 1,
+            "ability": 211
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 583,
+        "fields": {
+            "characterClass": 12,
+            "ability": 212
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 584,
+        "fields": {
+            "characterClass": 1,
+            "ability": 212
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 585,
+        "fields": {
+            "characterClass": 11,
+            "ability": 213
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 586,
+        "fields": {
+            "characterClass": 1,
+            "ability": 213
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 587,
+        "fields": {
+            "characterClass": 2,
+            "ability": 214
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 588,
+        "fields": {
+            "characterClass": 2,
+            "ability": 215
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 589,
+        "fields": {
+            "characterClass": 6,
+            "ability": 215
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 590,
+        "fields": {
+            "characterClass": 11,
+            "ability": 215
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 591,
+        "fields": {
+            "characterClass": 6,
+            "ability": 216
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 592,
+        "fields": {
+            "characterClass": 11,
+            "ability": 216
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 593,
+        "fields": {
+            "characterClass": 12,
+            "ability": 216
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 594,
+        "fields": {
+            "characterClass": 1,
+            "ability": 216
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 595,
+        "fields": {
+            "characterClass": 6,
+            "ability": 217
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 596,
+        "fields": {
+            "characterClass": 11,
+            "ability": 217
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 597,
+        "fields": {
+            "characterClass": 12,
+            "ability": 217
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 598,
+        "fields": {
+            "characterClass": 1,
+            "ability": 217
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 599,
+        "fields": {
+            "characterClass": 6,
+            "ability": 218
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 600,
+        "fields": {
+            "characterClass": 11,
+            "ability": 218
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 601,
+        "fields": {
+            "characterClass": 12,
+            "ability": 218
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 602,
+        "fields": {
+            "characterClass": 1,
+            "ability": 218
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 603,
+        "fields": {
+            "characterClass": 6,
+            "ability": 219
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 604,
+        "fields": {
+            "characterClass": 11,
+            "ability": 219
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 605,
+        "fields": {
+            "characterClass": 12,
+            "ability": 219
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 606,
+        "fields": {
+            "characterClass": 1,
+            "ability": 219
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 607,
+        "fields": {
+            "characterClass": 5,
+            "ability": 220
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 608,
+        "fields": {
+            "characterClass": 6,
+            "ability": 220
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 609,
+        "fields": {
+            "characterClass": 11,
+            "ability": 220
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 610,
+        "fields": {
+            "characterClass": 12,
+            "ability": 220
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 611,
+        "fields": {
+            "characterClass": 1,
+            "ability": 220
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 612,
+        "fields": {
+            "characterClass": 6,
+            "ability": 221
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 613,
+        "fields": {
+            "characterClass": 9,
+            "ability": 221
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 614,
+        "fields": {
+            "characterClass": 11,
+            "ability": 221
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 615,
+        "fields": {
+            "characterClass": 1,
+            "ability": 221
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 616,
+        "fields": {
+            "characterClass": 5,
+            "ability": 222
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 617,
+        "fields": {
+            "characterClass": 11,
+            "ability": 222
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 618,
+        "fields": {
+            "characterClass": 1,
+            "ability": 222
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 619,
+        "fields": {
+            "characterClass": 5,
+            "ability": 223
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 620,
+        "fields": {
+            "characterClass": 2,
+            "ability": 223
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 621,
+        "fields": {
+            "characterClass": 1,
+            "ability": 223
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 622,
+        "fields": {
+            "characterClass": 1,
+            "ability": 224
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 623,
+        "fields": {
+            "characterClass": 5,
+            "ability": 225
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 625,
+        "fields": {
+            "characterClass": 1,
+            "ability": 225
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 626,
+        "fields": {
+            "characterClass": 5,
+            "ability": 226
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 627,
+        "fields": {
+            "characterClass": 2,
+            "ability": 226
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 628,
+        "fields": {
+            "characterClass": 6,
+            "ability": 226
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 629,
+        "fields": {
+            "characterClass": 8,
+            "ability": 226
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 630,
+        "fields": {
+            "characterClass": 9,
+            "ability": 226
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 631,
+        "fields": {
+            "characterClass": 11,
+            "ability": 227
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 632,
+        "fields": {
+            "characterClass": 1,
+            "ability": 227
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 633,
+        "fields": {
+            "characterClass": 5,
+            "ability": 228
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 634,
+        "fields": {
+            "characterClass": 2,
+            "ability": 228
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 635,
+        "fields": {
+            "characterClass": 11,
+            "ability": 228
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 636,
+        "fields": {
+            "characterClass": 1,
+            "ability": 228
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 637,
+        "fields": {
+            "characterClass": 9,
+            "ability": 229
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 638,
+        "fields": {
+            "characterClass": 6,
+            "ability": 230
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 639,
+        "fields": {
+            "characterClass": 11,
+            "ability": 230
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 640,
+        "fields": {
+            "characterClass": 1,
+            "ability": 230
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 641,
+        "fields": {
+            "characterClass": 11,
+            "ability": 231
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 642,
+        "fields": {
+            "characterClass": 12,
+            "ability": 231
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 643,
+        "fields": {
+            "characterClass": 1,
+            "ability": 231
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 644,
+        "fields": {
+            "characterClass": 5,
+            "ability": 232
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 645,
+        "fields": {
+            "characterClass": 6,
+            "ability": 232
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 646,
+        "fields": {
+            "characterClass": 9,
+            "ability": 232
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 648,
+        "fields": {
+            "characterClass": 5,
+            "ability": 233
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 649,
+        "fields": {
+            "characterClass": 2,
+            "ability": 233
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 650,
+        "fields": {
+            "characterClass": 6,
+            "ability": 233
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 651,
+        "fields": {
+            "characterClass": 8,
+            "ability": 233
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 652,
+        "fields": {
+            "characterClass": 9,
+            "ability": 233
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 653,
+        "fields": {
+            "characterClass": 1,
+            "ability": 233
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 654,
+        "fields": {
+            "characterClass": 5,
+            "ability": 234
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 655,
+        "fields": {
+            "characterClass": 2,
+            "ability": 234
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 656,
+        "fields": {
+            "characterClass": 6,
+            "ability": 234
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 657,
+        "fields": {
+            "characterClass": 8,
+            "ability": 234
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 658,
+        "fields": {
+            "characterClass": 9,
+            "ability": 234
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 659,
+        "fields": {
+            "characterClass": 1,
+            "ability": 234
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 660,
+        "fields": {
+            "characterClass": 5,
+            "ability": 235
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 661,
+        "fields": {
+            "characterClass": 6,
+            "ability": 235
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 662,
+        "fields": {
+            "characterClass": 9,
+            "ability": 235
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 663,
+        "fields": {
+            "characterClass": 1,
+            "ability": 235
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 664,
+        "fields": {
+            "characterClass": 6,
+            "ability": 236
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 665,
+        "fields": {
+            "characterClass": 11,
+            "ability": 237
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 666,
+        "fields": {
+            "characterClass": 1,
+            "ability": 237
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 667,
+        "fields": {
+            "characterClass": 5,
+            "ability": 238
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 668,
+        "fields": {
+            "characterClass": 11,
+            "ability": 238
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 669,
+        "fields": {
+            "characterClass": 12,
+            "ability": 238
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 670,
+        "fields": {
+            "characterClass": 1,
+            "ability": 238
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 671,
+        "fields": {
+            "characterClass": 2,
+            "ability": 239
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 672,
+        "fields": {
+            "characterClass": 8,
+            "ability": 239
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 673,
+        "fields": {
+            "characterClass": 12,
+            "ability": 239
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 674,
+        "fields": {
+            "characterClass": 1,
+            "ability": 239
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 675,
+        "fields": {
+            "characterClass": 1,
+            "ability": 240
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 676,
+        "fields": {
+            "characterClass": 11,
+            "ability": 241
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 677,
+        "fields": {
+            "characterClass": 1,
+            "ability": 241
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 678,
+        "fields": {
+            "characterClass": 5,
+            "ability": 242
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 680,
+        "fields": {
+            "characterClass": 1,
+            "ability": 242
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 681,
+        "fields": {
+            "characterClass": 6,
+            "ability": 243
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 682,
+        "fields": {
+            "characterClass": 12,
+            "ability": 243
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 683,
+        "fields": {
+            "characterClass": 2,
+            "ability": 244
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 684,
+        "fields": {
+            "characterClass": 8,
+            "ability": 244
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 685,
+        "fields": {
+            "characterClass": 1,
+            "ability": 244
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 686,
+        "fields": {
+            "characterClass": 5,
+            "ability": 245
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 687,
+        "fields": {
+            "characterClass": 11,
+            "ability": 245
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 688,
+        "fields": {
+            "characterClass": 12,
+            "ability": 245
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 689,
+        "fields": {
+            "characterClass": 1,
+            "ability": 245
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 690,
+        "fields": {
+            "characterClass": 5,
+            "ability": 246
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 691,
+        "fields": {
+            "characterClass": 2,
+            "ability": 246
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 692,
+        "fields": {
+            "characterClass": 6,
+            "ability": 246
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 693,
+        "fields": {
+            "characterClass": 2,
+            "ability": 247
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 694,
+        "fields": {
+            "characterClass": 2,
+            "ability": 248
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 695,
+        "fields": {
+            "characterClass": 5,
+            "ability": 249
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 696,
+        "fields": {
+            "characterClass": 11,
+            "ability": 249
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 697,
+        "fields": {
+            "characterClass": 12,
+            "ability": 249
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 698,
+        "fields": {
+            "characterClass": 1,
+            "ability": 249
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 699,
+        "fields": {
+            "characterClass": 11,
+            "ability": 250
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 700,
+        "fields": {
+            "characterClass": 1,
+            "ability": 250
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 701,
+        "fields": {
+            "characterClass": 1,
+            "ability": 251
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 702,
+        "fields": {
+            "characterClass": 2,
+            "ability": 252
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 703,
+        "fields": {
+            "characterClass": 6,
+            "ability": 252
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 705,
+        "fields": {
+            "characterClass": 6,
+            "ability": 253
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 706,
+        "fields": {
+            "characterClass": 1,
+            "ability": 253
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 707,
+        "fields": {
+            "characterClass": 11,
+            "ability": 254
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 708,
+        "fields": {
+            "characterClass": 1,
+            "ability": 254
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 709,
+        "fields": {
+            "characterClass": 2,
+            "ability": 255
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 710,
+        "fields": {
+            "characterClass": 5,
+            "ability": 255
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 711,
+        "fields": {
+            "characterClass": 6,
+            "ability": 255
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 712,
+        "fields": {
+            "characterClass": 11,
+            "ability": 255
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 713,
+        "fields": {
+            "characterClass": 1,
+            "ability": 255
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 714,
+        "fields": {
+            "characterClass": 5,
+            "ability": 256
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 715,
+        "fields": {
+            "characterClass": 11,
+            "ability": 256
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 716,
+        "fields": {
+            "characterClass": 1,
+            "ability": 256
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 717,
+        "fields": {
+            "characterClass": 11,
+            "ability": 257
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 718,
+        "fields": {
+            "characterClass": 1,
+            "ability": 257
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 719,
+        "fields": {
+            "characterClass": 5,
+            "ability": 258
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 720,
+        "fields": {
+            "characterClass": 1,
+            "ability": 258
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 721,
+        "fields": {
+            "characterClass": 5,
+            "ability": 259
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 722,
+        "fields": {
+            "characterClass": 11,
+            "ability": 259
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 723,
+        "fields": {
+            "characterClass": 12,
+            "ability": 259
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 724,
+        "fields": {
+            "characterClass": 1,
+            "ability": 259
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 725,
+        "fields": {
+            "characterClass": 5,
+            "ability": 260
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 726,
+        "fields": {
+            "characterClass": 6,
+            "ability": 260
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 727,
+        "fields": {
+            "characterClass": 1,
+            "ability": 260
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 728,
+        "fields": {
+            "characterClass": 2,
+            "ability": 261
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 729,
+        "fields": {
+            "characterClass": 6,
+            "ability": 261
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 730,
+        "fields": {
+            "characterClass": 11,
+            "ability": 261
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 731,
+        "fields": {
+            "characterClass": 12,
+            "ability": 261
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 732,
+        "fields": {
+            "characterClass": 1,
+            "ability": 261
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 733,
+        "fields": {
+            "characterClass": 5,
+            "ability": 262
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 734,
+        "fields": {
+            "characterClass": 1,
+            "ability": 262
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 735,
+        "fields": {
+            "characterClass": 6,
+            "ability": 263
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 736,
+        "fields": {
+            "characterClass": 8,
+            "ability": 263
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 737,
+        "fields": {
+            "characterClass": 11,
+            "ability": 263
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 738,
+        "fields": {
+            "characterClass": 12,
+            "ability": 263
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 739,
+        "fields": {
+            "characterClass": 1,
+            "ability": 263
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 740,
+        "fields": {
+            "characterClass": 5,
+            "ability": 264
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 741,
+        "fields": {
+            "characterClass": 2,
+            "ability": 264
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 742,
+        "fields": {
+            "characterClass": 1,
+            "ability": 264
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 743,
+        "fields": {
+            "characterClass": 6,
+            "ability": 265
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 744,
+        "fields": {
+            "characterClass": 11,
+            "ability": 265
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 745,
+        "fields": {
+            "characterClass": 1,
+            "ability": 265
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 746,
+        "fields": {
+            "characterClass": 6,
+            "ability": 266
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 747,
+        "fields": {
+            "characterClass": 8,
+            "ability": 266
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 748,
+        "fields": {
+            "characterClass": 1,
+            "ability": 267
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 749,
+        "fields": {
+            "characterClass": 5,
+            "ability": 268
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 750,
+        "fields": {
+            "characterClass": 1,
+            "ability": 268
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 751,
+        "fields": {
+            "characterClass": 1,
+            "ability": 269
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 752,
+        "fields": {
+            "characterClass": 5,
+            "ability": 270
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 753,
+        "fields": {
+            "characterClass": 1,
+            "ability": 270
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 754,
+        "fields": {
+            "characterClass": 6,
+            "ability": 271
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 755,
+        "fields": {
+            "characterClass": 11,
+            "ability": 271
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 756,
+        "fields": {
+            "characterClass": 1,
+            "ability": 271
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 757,
+        "fields": {
+            "characterClass": 5,
+            "ability": 272
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 758,
+        "fields": {
+            "characterClass": 2,
+            "ability": 272
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 759,
+        "fields": {
+            "characterClass": 9,
+            "ability": 272
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 760,
+        "fields": {
+            "characterClass": 1,
+            "ability": 272
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 761,
+        "fields": {
+            "characterClass": 1,
+            "ability": 273
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 762,
+        "fields": {
+            "characterClass": 1,
+            "ability": 274
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 763,
+        "fields": {
+            "characterClass": 1,
+            "ability": 275
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 764,
+        "fields": {
+            "characterClass": 5,
+            "ability": 276
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 765,
+        "fields": {
+            "characterClass": 1,
+            "ability": 276
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 766,
+        "fields": {
+            "characterClass": 2,
+            "ability": 277
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 767,
+        "fields": {
+            "characterClass": 6,
+            "ability": 277
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 768,
+        "fields": {
+            "characterClass": 9,
+            "ability": 277
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 769,
+        "fields": {
+            "characterClass": 6,
+            "ability": 278
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 770,
+        "fields": {
+            "characterClass": 1,
+            "ability": 278
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 771,
+        "fields": {
+            "characterClass": 5,
+            "ability": 279
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 772,
+        "fields": {
+            "characterClass": 11,
+            "ability": 279
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 773,
+        "fields": {
+            "characterClass": 12,
+            "ability": 279
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 774,
+        "fields": {
+            "characterClass": 1,
+            "ability": 279
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 775,
+        "fields": {
+            "characterClass": 5,
+            "ability": 280
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 776,
+        "fields": {
+            "characterClass": 11,
+            "ability": 280
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 777,
+        "fields": {
+            "characterClass": 12,
+            "ability": 280
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 778,
+        "fields": {
+            "characterClass": 1,
+            "ability": 280
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 779,
+        "fields": {
+            "characterClass": 1,
+            "ability": 281
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 781,
+        "fields": {
+            "characterClass": 1,
+            "ability": 282
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 782,
+        "fields": {
+            "characterClass": 2,
+            "ability": 283
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 783,
+        "fields": {
+            "characterClass": 5,
+            "ability": 284
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 784,
+        "fields": {
+            "characterClass": 2,
+            "ability": 284
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 785,
+        "fields": {
+            "characterClass": 6,
+            "ability": 284
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 786,
+        "fields": {
+            "characterClass": 1,
+            "ability": 284
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 787,
+        "fields": {
+            "characterClass": 2,
+            "ability": 285
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 788,
+        "fields": {
+            "characterClass": 11,
+            "ability": 285
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 789,
+        "fields": {
+            "characterClass": 12,
+            "ability": 285
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 790,
+        "fields": {
+            "characterClass": 1,
+            "ability": 285
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 791,
+        "fields": {
+            "characterClass": 5,
+            "ability": 286
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 792,
+        "fields": {
+            "characterClass": 2,
+            "ability": 286
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 793,
+        "fields": {
+            "characterClass": 6,
+            "ability": 286
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 794,
+        "fields": {
+            "characterClass": 8,
+            "ability": 286
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 795,
+        "fields": {
+            "characterClass": 9,
+            "ability": 286
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 796,
+        "fields": {
+            "characterClass": 12,
+            "ability": 286
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 797,
+        "fields": {
+            "characterClass": 11,
+            "ability": 287
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 798,
+        "fields": {
+            "characterClass": 12,
+            "ability": 287
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 799,
+        "fields": {
+            "characterClass": 1,
+            "ability": 287
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 800,
+        "fields": {
+            "characterClass": 5,
+            "ability": 288
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 801,
+        "fields": {
+            "characterClass": 2,
+            "ability": 288
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 802,
+        "fields": {
+            "characterClass": 6,
+            "ability": 288
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 803,
+        "fields": {
+            "characterClass": 11,
+            "ability": 288
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 804,
+        "fields": {
+            "characterClass": 1,
+            "ability": 288
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 805,
+        "fields": {
+            "characterClass": 5,
+            "ability": 289
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 806,
+        "fields": {
+            "characterClass": 5,
+            "ability": 290
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 807,
+        "fields": {
+            "characterClass": 11,
+            "ability": 290
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 808,
+        "fields": {
+            "characterClass": 12,
+            "ability": 290
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 809,
+        "fields": {
+            "characterClass": 1,
+            "ability": 290
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 810,
+        "fields": {
+            "characterClass": 5,
+            "ability": 291
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 811,
+        "fields": {
+            "characterClass": 11,
+            "ability": 291
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 812,
+        "fields": {
+            "characterClass": 12,
+            "ability": 291
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 813,
+        "fields": {
+            "characterClass": 1,
+            "ability": 291
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 814,
+        "fields": {
+            "characterClass": 2,
+            "ability": 292
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 815,
+        "fields": {
+            "characterClass": 5,
+            "ability": 293
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 816,
+        "fields": {
+            "characterClass": 11,
+            "ability": 293
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 817,
+        "fields": {
+            "characterClass": 12,
+            "ability": 293
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 818,
+        "fields": {
+            "characterClass": 1,
+            "ability": 293
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 819,
+        "fields": {
+            "characterClass": 6,
+            "ability": 294
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 820,
+        "fields": {
+            "characterClass": 11,
+            "ability": 295
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 821,
+        "fields": {
+            "characterClass": 1,
+            "ability": 295
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 822,
+        "fields": {
+            "characterClass": 1,
+            "ability": 296
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 823,
+        "fields": {
+            "characterClass": 6,
+            "ability": 297
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 824,
+        "fields": {
+            "characterClass": 5,
+            "ability": 298
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 825,
+        "fields": {
+            "characterClass": 1,
+            "ability": 298
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 826,
+        "fields": {
+            "characterClass": 5,
+            "ability": 299
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 827,
+        "fields": {
+            "characterClass": 1,
+            "ability": 299
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 828,
+        "fields": {
+            "characterClass": 2,
+            "ability": 300
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 829,
+        "fields": {
+            "characterClass": 6,
+            "ability": 300
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 830,
+        "fields": {
+            "characterClass": 8,
+            "ability": 300
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 831,
+        "fields": {
+            "characterClass": 9,
+            "ability": 300
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 832,
+        "fields": {
+            "characterClass": 11,
+            "ability": 300
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 833,
+        "fields": {
+            "characterClass": 1,
+            "ability": 300
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 834,
+        "fields": {
+            "characterClass": 2,
+            "ability": 301
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 835,
+        "fields": {
+            "characterClass": 8,
+            "ability": 301
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 836,
+        "fields": {
+            "characterClass": 12,
+            "ability": 301
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 837,
+        "fields": {
+            "characterClass": 1,
+            "ability": 301
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 838,
+        "fields": {
+            "characterClass": 2,
+            "ability": 302
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 839,
+        "fields": {
+            "characterClass": 6,
+            "ability": 302
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 840,
+        "fields": {
+            "characterClass": 8,
+            "ability": 302
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 841,
+        "fields": {
+            "characterClass": 9,
+            "ability": 302
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 842,
+        "fields": {
+            "characterClass": 2,
+            "ability": 303
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 843,
+        "fields": {
+            "characterClass": 6,
+            "ability": 303
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 844,
+        "fields": {
+            "characterClass": 8,
+            "ability": 303
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 846,
+        "fields": {
+            "characterClass": 5,
+            "ability": 304
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 847,
+        "fields": {
+            "characterClass": 11,
+            "ability": 304
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 848,
+        "fields": {
+            "characterClass": 1,
+            "ability": 304
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 849,
+        "fields": {
+            "characterClass": 5,
+            "ability": 305
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 850,
+        "fields": {
+            "characterClass": 2,
+            "ability": 305
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 851,
+        "fields": {
+            "characterClass": 8,
+            "ability": 305
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 853,
+        "fields": {
+            "characterClass": 1,
+            "ability": 306
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 854,
+        "fields": {
+            "characterClass": 12,
+            "ability": 307
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 855,
+        "fields": {
+            "characterClass": 1,
+            "ability": 307
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 856,
+        "fields": {
+            "characterClass": 11,
+            "ability": 308
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 857,
+        "fields": {
+            "characterClass": 1,
+            "ability": 308
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 858,
+        "fields": {
+            "characterClass": 11,
+            "ability": 309
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 859,
+        "fields": {
+            "characterClass": 1,
+            "ability": 309
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 860,
+        "fields": {
+            "characterClass": 5,
+            "ability": 310
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 861,
+        "fields": {
+            "characterClass": 2,
+            "ability": 310
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 862,
+        "fields": {
+            "characterClass": 6,
+            "ability": 310
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 863,
+        "fields": {
+            "characterClass": 6,
+            "ability": 311
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 864,
+        "fields": {
+            "characterClass": 2,
+            "ability": 312
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 865,
+        "fields": {
+            "characterClass": 8,
+            "ability": 312
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 866,
+        "fields": {
+            "characterClass": 12,
+            "ability": 312
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 867,
+        "fields": {
+            "characterClass": 1,
+            "ability": 312
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 868,
+        "fields": {
+            "characterClass": 2,
+            "ability": 313
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 869,
+        "fields": {
+            "characterClass": 6,
+            "ability": 313
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 870,
+        "fields": {
+            "characterClass": 5,
+            "ability": 314
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 871,
+        "fields": {
+            "characterClass": 2,
+            "ability": 314
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 872,
+        "fields": {
+            "characterClass": 6,
+            "ability": 315
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 873,
+        "fields": {
+            "characterClass": 11,
+            "ability": 315
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 874,
+        "fields": {
+            "characterClass": 1,
+            "ability": 315
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 875,
+        "fields": {
+            "characterClass": 2,
+            "ability": 316
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 876,
+        "fields": {
+            "characterClass": 8,
+            "ability": 316
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 877,
+        "fields": {
+            "characterClass": 1,
+            "ability": 317
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 878,
+        "fields": {
+            "characterClass": 2,
+            "ability": 318
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 879,
+        "fields": {
+            "characterClass": 2,
+            "ability": 319
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 880,
+        "fields": {
+            "characterClass": 8,
+            "ability": 319
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 881,
+        "fields": {
+            "characterClass": 2,
+            "ability": 320
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 882,
+        "fields": {
+            "characterClass": 11,
+            "ability": 320
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 883,
+        "fields": {
+            "characterClass": 12,
+            "ability": 320
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 884,
+        "fields": {
+            "characterClass": 1,
+            "ability": 320
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 885,
+        "fields": {
+            "characterClass": 5,
+            "ability": 321
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 886,
+        "fields": {
+            "characterClass": 2,
+            "ability": 321
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 887,
+        "fields": {
+            "characterClass": 6,
+            "ability": 321
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 888,
+        "fields": {
+            "characterClass": 8,
+            "ability": 321
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 889,
+        "fields": {
+            "characterClass": 12,
+            "ability": 321
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 890,
+        "fields": {
+            "characterClass": 1,
+            "ability": 321
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 891,
+        "fields": {
+            "characterClass": 8,
+            "ability": 322
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 892,
+        "fields": {
+            "characterClass": 5,
+            "ability": 323
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 893,
+        "fields": {
+            "characterClass": 11,
+            "ability": 323
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 894,
+        "fields": {
+            "characterClass": 1,
+            "ability": 323
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 895,
+        "fields": {
+            "characterClass": 5,
+            "ability": 324
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 896,
+        "fields": {
+            "characterClass": 11,
+            "ability": 324
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 897,
+        "fields": {
+            "characterClass": 12,
+            "ability": 324
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 898,
+        "fields": {
+            "characterClass": 1,
+            "ability": 324
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 899,
+        "fields": {
+            "characterClass": 5,
+            "ability": 325
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 900,
+        "fields": {
+            "characterClass": 2,
+            "ability": 325
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 901,
+        "fields": {
+            "characterClass": 12,
+            "ability": 325
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 902,
+        "fields": {
+            "characterClass": 1,
+            "ability": 325
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 903,
+        "fields": {
+            "characterClass": 1,
+            "ability": 326
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 904,
+        "fields": {
+            "characterClass": 6,
+            "ability": 327
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 905,
+        "fields": {
+            "characterClass": 11,
+            "ability": 327
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 906,
+        "fields": {
+            "characterClass": 1,
+            "ability": 327
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 907,
+        "fields": {
+            "characterClass": 6,
+            "ability": 328
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 908,
+        "fields": {
+            "characterClass": 1,
+            "ability": 328
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 909,
+        "fields": {
+            "characterClass": 5,
+            "ability": 329
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 910,
+        "fields": {
+            "characterClass": 2,
+            "ability": 329
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 911,
+        "fields": {
+            "characterClass": 11,
+            "ability": 329
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 912,
+        "fields": {
+            "characterClass": 12,
+            "ability": 329
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 913,
+        "fields": {
+            "characterClass": 1,
+            "ability": 329
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 914,
+        "fields": {
+            "characterClass": 11,
+            "ability": 330
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 915,
+        "fields": {
+            "characterClass": 1,
+            "ability": 330
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 916,
+        "fields": {
+            "characterClass": 2,
+            "ability": 331
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 917,
+        "fields": {
+            "characterClass": 8,
+            "ability": 331
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 918,
+        "fields": {
+            "characterClass": 6,
+            "ability": 332
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 919,
+        "fields": {
+            "characterClass": 11,
+            "ability": 333
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 920,
+        "fields": {
+            "characterClass": 1,
+            "ability": 333
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 921,
+        "fields": {
+            "characterClass": 5,
+            "ability": 334
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 922,
+        "fields": {
+            "characterClass": 2,
+            "ability": 334
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 923,
+        "fields": {
+            "characterClass": 6,
+            "ability": 334
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 924,
+        "fields": {
+            "characterClass": 9,
+            "ability": 334
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 926,
+        "fields": {
+            "characterClass": 5,
+            "ability": 335
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 927,
+        "fields": {
+            "characterClass": 11,
+            "ability": 335
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 928,
+        "fields": {
+            "characterClass": 1,
+            "ability": 335
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 929,
+        "fields": {
+            "characterClass": 1,
+            "ability": 336
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 930,
+        "fields": {
+            "characterClass": 5,
+            "ability": 337
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 931,
+        "fields": {
+            "characterClass": 6,
+            "ability": 337
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 933,
+        "fields": {
+            "characterClass": 1,
+            "ability": 337
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 934,
+        "fields": {
+            "characterClass": 5,
+            "ability": 338
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 935,
+        "fields": {
+            "characterClass": 11,
+            "ability": 338
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 936,
+        "fields": {
+            "characterClass": 12,
+            "ability": 338
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 937,
+        "fields": {
+            "characterClass": 1,
+            "ability": 338
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 938,
+        "fields": {
+            "characterClass": 2,
+            "ability": 339
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 939,
+        "fields": {
+            "characterClass": 6,
+            "ability": 339
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 940,
+        "fields": {
+            "characterClass": 11,
+            "ability": 339
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 941,
+        "fields": {
+            "characterClass": 1,
+            "ability": 339
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 942,
+        "fields": {
+            "characterClass": 6,
+            "ability": 340
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 943,
+        "fields": {
+            "characterClass": 11,
+            "ability": 340
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 944,
+        "fields": {
+            "characterClass": 1,
+            "ability": 340
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 945,
+        "fields": {
+            "characterClass": 11,
+            "ability": 341
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 946,
+        "fields": {
+            "characterClass": 1,
+            "ability": 341
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 947,
+        "fields": {
+            "characterClass": 2,
+            "ability": 342
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 948,
+        "fields": {
+            "characterClass": 5,
+            "ability": 343
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 949,
+        "fields": {
+            "characterClass": 2,
+            "ability": 343
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 950,
+        "fields": {
+            "characterClass": 6,
+            "ability": 343
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 951,
+        "fields": {
+            "characterClass": 8,
+            "ability": 343
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 952,
+        "fields": {
+            "characterClass": 9,
+            "ability": 343
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 954,
+        "fields": {
+            "characterClass": 5,
+            "ability": 344
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 955,
+        "fields": {
+            "characterClass": 2,
+            "ability": 344
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 956,
+        "fields": {
+            "characterClass": 5,
+            "ability": 345
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 957,
+        "fields": {
+            "characterClass": 6,
+            "ability": 345
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 958,
+        "fields": {
+            "characterClass": 9,
+            "ability": 345
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 959,
+        "fields": {
+            "characterClass": 6,
+            "ability": 346
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 960,
+        "fields": {
+            "characterClass": 11,
+            "ability": 346
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 961,
+        "fields": {
+            "characterClass": 12,
+            "ability": 346
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 962,
+        "fields": {
+            "characterClass": 1,
+            "ability": 346
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 963,
+        "fields": {
+            "characterClass": 2,
+            "ability": 347
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 964,
+        "fields": {
+            "characterClass": 6,
+            "ability": 347
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 965,
+        "fields": {
+            "characterClass": 9,
+            "ability": 347
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 966,
+        "fields": {
+            "characterClass": 2,
+            "ability": 348
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 967,
+        "fields": {
+            "characterClass": 2,
+            "ability": 349
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 968,
+        "fields": {
+            "characterClass": 8,
+            "ability": 350
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 969,
+        "fields": {
+            "characterClass": 5,
+            "ability": 351
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 970,
+        "fields": {
+            "characterClass": 6,
+            "ability": 351
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 971,
+        "fields": {
+            "characterClass": 11,
+            "ability": 351
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 972,
+        "fields": {
+            "characterClass": 12,
+            "ability": 351
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 973,
+        "fields": {
+            "characterClass": 1,
+            "ability": 351
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 974,
+        "fields": {
+            "characterClass": 2,
+            "ability": 352
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 975,
+        "fields": {
+            "characterClass": 6,
+            "ability": 352
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 976,
+        "fields": {
+            "characterClass": 1,
+            "ability": 352
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 977,
+        "fields": {
+            "characterClass": 2,
+            "ability": 353
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 978,
+        "fields": {
+            "characterClass": 6,
+            "ability": 353
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 979,
+        "fields": {
+            "characterClass": 8,
+            "ability": 353
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 980,
+        "fields": {
+            "characterClass": 9,
+            "ability": 353
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 981,
+        "fields": {
+            "characterClass": 11,
+            "ability": 353
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 982,
+        "fields": {
+            "characterClass": 1,
+            "ability": 353
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 983,
+        "fields": {
+            "characterClass": 6,
+            "ability": 354
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 984,
+        "fields": {
+            "characterClass": 11,
+            "ability": 355
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 985,
+        "fields": {
+            "characterClass": 1,
+            "ability": 355
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 986,
+        "fields": {
+            "characterClass": 5,
+            "ability": 356
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 987,
+        "fields": {
+            "characterClass": 2,
+            "ability": 356
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 988,
+        "fields": {
+            "characterClass": 11,
+            "ability": 356
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 989,
+        "fields": {
+            "characterClass": 12,
+            "ability": 356
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 990,
+        "fields": {
+            "characterClass": 1,
+            "ability": 356
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 991,
+        "fields": {
+            "characterClass": 6,
+            "ability": 357
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 992,
+        "fields": {
+            "characterClass": 11,
+            "ability": 357
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 993,
+        "fields": {
+            "characterClass": 1,
+            "ability": 357
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 994,
+        "fields": {
+            "characterClass": 6,
+            "ability": 358
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 995,
+        "fields": {
+            "characterClass": 11,
+            "ability": 358
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 996,
+        "fields": {
+            "characterClass": 1,
+            "ability": 358
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 997,
+        "fields": {
+            "characterClass": 9,
+            "ability": 359
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 998,
+        "fields": {
+            "characterClass": 11,
+            "ability": 360
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 999,
+        "fields": {
+            "characterClass": 12,
+            "ability": 360
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1000,
+        "fields": {
+            "characterClass": 1,
+            "ability": 360
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1001,
+        "fields": {
+            "characterClass": 5,
+            "ability": 361
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1002,
+        "fields": {
+            "characterClass": 2,
+            "ability": 361
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1003,
+        "fields": {
+            "characterClass": 1,
+            "ability": 361
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1004,
+        "fields": {
+            "characterClass": 5,
+            "ability": 362
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1005,
+        "fields": {
+            "characterClass": 12,
+            "ability": 362
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1006,
+        "fields": {
+            "characterClass": 1,
+            "ability": 362
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1007,
+        "fields": {
+            "characterClass": 11,
+            "ability": 363
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1008,
+        "fields": {
+            "characterClass": 12,
+            "ability": 363
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1009,
+        "fields": {
+            "characterClass": 1,
+            "ability": 363
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1010,
+        "fields": {
+            "characterClass": 1,
+            "ability": 364
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1011,
+        "fields": {
+            "characterClass": 5,
+            "ability": 365
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1012,
+        "fields": {
+            "characterClass": 11,
+            "ability": 365
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1013,
+        "fields": {
+            "characterClass": 1,
+            "ability": 365
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1014,
+        "fields": {
+            "characterClass": 5,
+            "ability": 366
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1015,
+        "fields": {
+            "characterClass": 11,
+            "ability": 366
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1016,
+        "fields": {
+            "characterClass": 1,
+            "ability": 366
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1018,
+        "fields": {
+            "characterClass": 1,
+            "ability": 367
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1019,
+        "fields": {
+            "characterClass": 2,
+            "ability": 368
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1020,
+        "fields": {
+            "characterClass": 6,
+            "ability": 369
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1021,
+        "fields": {
+            "characterClass": 8,
+            "ability": 370
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1022,
+        "fields": {
+            "characterClass": 5,
+            "ability": 371
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1023,
+        "fields": {
+            "characterClass": 6,
+            "ability": 371
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1024,
+        "fields": {
+            "characterClass": 11,
+            "ability": 371
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1025,
+        "fields": {
+            "characterClass": 12,
+            "ability": 371
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1026,
+        "fields": {
+            "characterClass": 1,
+            "ability": 371
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1027,
+        "fields": {
+            "characterClass": 5,
+            "ability": 372
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1028,
+        "fields": {
+            "characterClass": 2,
+            "ability": 372
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1029,
+        "fields": {
+            "characterClass": 6,
+            "ability": 372
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1030,
+        "fields": {
+            "characterClass": 11,
+            "ability": 372
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1031,
+        "fields": {
+            "characterClass": 1,
+            "ability": 372
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1032,
+        "fields": {
+            "characterClass": 6,
+            "ability": 373
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1033,
+        "fields": {
+            "characterClass": 1,
+            "ability": 373
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1034,
+        "fields": {
+            "characterClass": 11,
+            "ability": 374
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1035,
+        "fields": {
+            "characterClass": 1,
+            "ability": 374
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1036,
+        "fields": {
+            "characterClass": 5,
+            "ability": 375
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1037,
+        "fields": {
+            "characterClass": 2,
+            "ability": 375
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1038,
+        "fields": {
+            "characterClass": 11,
+            "ability": 375
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1039,
+        "fields": {
+            "characterClass": 12,
+            "ability": 375
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1040,
+        "fields": {
+            "characterClass": 1,
+            "ability": 375
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1041,
+        "fields": {
+            "characterClass": 6,
+            "ability": 376
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1042,
+        "fields": {
+            "characterClass": 1,
+            "ability": 376
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1043,
+        "fields": {
+            "characterClass": 6,
+            "ability": 377
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1044,
+        "fields": {
+            "characterClass": 1,
+            "ability": 378
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1045,
+        "fields": {
+            "characterClass": 2,
+            "ability": 379
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1046,
+        "fields": {
+            "characterClass": 6,
+            "ability": 379
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1047,
+        "fields": {
+            "characterClass": 8,
+            "ability": 379
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1048,
+        "fields": {
+            "characterClass": 9,
+            "ability": 379
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1049,
+        "fields": {
+            "characterClass": 5,
+            "ability": 380
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1050,
+        "fields": {
+            "characterClass": 12,
+            "ability": 380
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1051,
+        "fields": {
+            "characterClass": 1,
+            "ability": 380
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1052,
+        "fields": {
+            "characterClass": 2,
+            "ability": 381
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1053,
+        "fields": {
+            "characterClass": 6,
+            "ability": 381
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1054,
+        "fields": {
+            "characterClass": 5,
+            "ability": 382
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1055,
+        "fields": {
+            "characterClass": 2,
+            "ability": 382
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1056,
+        "fields": {
+            "characterClass": 11,
+            "ability": 382
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1057,
+        "fields": {
+            "characterClass": 12,
+            "ability": 382
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1058,
+        "fields": {
+            "characterClass": 1,
+            "ability": 382
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1059,
+        "fields": {
+            "characterClass": 5,
+            "ability": 383
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1060,
+        "fields": {
+            "characterClass": 11,
+            "ability": 383
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1061,
+        "fields": {
+            "characterClass": 12,
+            "ability": 383
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1062,
+        "fields": {
+            "characterClass": 1,
+            "ability": 383
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1063,
+        "fields": {
+            "characterClass": 6,
+            "ability": 384
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1064,
+        "fields": {
+            "characterClass": 5,
+            "ability": 385
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1066,
+        "fields": {
+            "characterClass": 12,
+            "ability": 385
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1067,
+        "fields": {
+            "characterClass": 1,
+            "ability": 385
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1068,
+        "fields": {
+            "characterClass": 12,
+            "ability": 386
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1069,
+        "fields": {
+            "characterClass": 1,
+            "ability": 386
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1070,
+        "fields": {
+            "characterClass": 5,
+            "ability": 387
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1071,
+        "fields": {
+            "characterClass": 11,
+            "ability": 388
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1072,
+        "fields": {
+            "characterClass": 1,
+            "ability": 388
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1073,
+        "fields": {
+            "characterClass": 2,
+            "ability": 389
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1074,
+        "fields": {
+            "characterClass": 6,
+            "ability": 389
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1075,
+        "fields": {
+            "characterClass": 11,
+            "ability": 389
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1076,
+        "fields": {
+            "characterClass": 12,
+            "ability": 389
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1077,
+        "fields": {
+            "characterClass": 1,
+            "ability": 389
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1078,
+        "fields": {
+            "characterClass": 1,
+            "ability": 390
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1079,
+        "fields": {
+            "characterClass": 1,
+            "ability": 391
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1080,
+        "fields": {
+            "characterClass": 1,
+            "ability": 392
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1081,
+        "fields": {
+            "characterClass": 6,
+            "ability": 393
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1082,
+        "fields": {
+            "characterClass": 11,
+            "ability": 393
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1083,
+        "fields": {
+            "characterClass": 1,
+            "ability": 393
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1084,
+        "fields": {
+            "characterClass": 6,
+            "ability": 394
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1085,
+        "fields": {
+            "characterClass": 6,
+            "ability": 395
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1086,
+        "fields": {
+            "characterClass": 11,
+            "ability": 395
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1087,
+        "fields": {
+            "characterClass": 1,
+            "ability": 395
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1088,
+        "fields": {
+            "characterClass": 2,
+            "ability": 396
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1089,
+        "fields": {
+            "characterClass": 5,
+            "ability": 397
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1090,
+        "fields": {
+            "characterClass": 6,
+            "ability": 397
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1091,
+        "fields": {
+            "characterClass": 11,
+            "ability": 397
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1092,
+        "fields": {
+            "characterClass": 6,
+            "ability": 398
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1093,
+        "fields": {
+            "characterClass": 9,
+            "ability": 398
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1095,
+        "fields": {
+            "characterClass": 11,
+            "ability": 398
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1096,
+        "fields": {
+            "characterClass": 1,
+            "ability": 398
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1097,
+        "fields": {
+            "characterClass": 2,
+            "ability": 399
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1098,
+        "fields": {
+            "characterClass": 6,
+            "ability": 399
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1099,
+        "fields": {
+            "characterClass": 9,
+            "ability": 399
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1101,
+        "fields": {
+            "characterClass": 11,
+            "ability": 399
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1102,
+        "fields": {
+            "characterClass": 6,
+            "ability": 400
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1103,
+        "fields": {
+            "characterClass": 11,
+            "ability": 400
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1104,
+        "fields": {
+            "characterClass": 1,
+            "ability": 400
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1105,
+        "fields": {
+            "characterClass": 6,
+            "ability": 401
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1106,
+        "fields": {
+            "characterClass": 11,
+            "ability": 401
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1107,
+        "fields": {
+            "characterClass": 1,
+            "ability": 401
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1108,
+        "fields": {
+            "characterClass": 1,
+            "ability": 402
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1109,
+        "fields": {
+            "characterClass": 6,
+            "ability": 403
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1110,
+        "fields": {
+            "characterClass": 1,
+            "ability": 403
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1111,
+        "fields": {
+            "characterClass": 6,
+            "ability": 404
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1112,
+        "fields": {
+            "characterClass": 2,
+            "ability": 405
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1113,
+        "fields": {
+            "characterClass": 6,
+            "ability": 405
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1114,
+        "fields": {
+            "characterClass": 9,
+            "ability": 405
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1115,
+        "fields": {
+            "characterClass": 11,
+            "ability": 406
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1116,
+        "fields": {
+            "characterClass": 1,
+            "ability": 406
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1117,
+        "fields": {
+            "characterClass": 11,
+            "ability": 407
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1118,
+        "fields": {
+            "characterClass": 12,
+            "ability": 407
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1119,
+        "fields": {
+            "characterClass": 1,
+            "ability": 407
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1120,
+        "fields": {
+            "characterClass": 2,
+            "ability": 408
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1121,
+        "fields": {
+            "characterClass": 8,
+            "ability": 409
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1122,
+        "fields": {
+            "characterClass": 5,
+            "ability": 410
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1123,
+        "fields": {
+            "characterClass": 2,
+            "ability": 410
+        }
+    },
+    {
+        "model": "api.abilityClass",
+        "pk": 1124,
+        "fields": {
+            "characterClass": 8,
+            "ability": 410
+        }
+    }
+]

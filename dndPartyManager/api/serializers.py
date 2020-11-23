@@ -29,6 +29,35 @@ class AbilitySerializer(serializers.ModelSerializer):
             'spellClass',
         ]
 
+class AbilityClassSerializer(serializers.ModelSerializer):
+    
+    class Meta:
+        model = models.AbilityClass
+        fields = [
+            'ability',
+            'class',
+        ]
+
+class AbilitySerializer(serializers.ModelSerializer):
+    
+    class Meta:
+        model = models.Ability
+        fields = [
+            'name',
+            'description',
+            'level',
+            'abilityType',
+            'range',
+            'components',
+            'ritual',
+            'duration',
+            'concentration',
+            'castingTime',
+            'level',
+            'school',
+            'spellClass',
+        ]
+
 class GameSessionSerializer(serializers.ModelSerializer):
     
     class Meta:

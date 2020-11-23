@@ -19,5 +19,68 @@
       "fields": {
         "name": "Fighter"
       }
+    },
+    {
+      "model": "api.characterClass",
+      "pk": 4,
+      "fields": {
+        "name": "Barbarian"
+      }
+    },
+    {
+      "model": "api.characterClass",
+      "pk": 5,
+      "fields": {
+        "name": "Bard"
+      }
+    },
+    {
+      "model": "api.characterClass",
+      "pk": 6,
+      "fields": {
+        "name": "Druid"
+      }
+    },
+    {
+      "model": "api.characterClass",
+      "pk": 7,
+      "fields": {
+        "name": "Monk"
+      }
+    },
+    {
+      "model": "api.characterClass",
+      "pk": 8,
+      "fields": {
+        "name": "Paladin"
+      }
+    },
+    {
+      "model": "api.characterClass",
+      "pk": 9,
+      "fields": {
+        "name": "Ranger"
+      }
+    },
+    {
+      "model": "api.characterClass",
+      "pk": 10,
+      "fields": {
+        "name": "Rogue"
+      }
+    },
+    {
+      "model": "api.characterClass",
+      "pk": 11,
+      "fields": {
+        "name": "Sorcerer"
+      }
+    },
+    {
+      "model": "api.characterClass",
+      "pk": 12,
+      "fields": {
+        "name": "Warlock"
+      }
     }
 ]
