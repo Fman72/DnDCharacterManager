@@ -1,0 +1,12 @@
+type Ability {
+  name: String
+  description: String
+}
+
+type Query {
+  allAbilitiesForClasses(classes: [Int]): [Ability]
+}
+
+type Subscription {
+  abilityUsedOnOneOfCharacters(characters: [Int]): Comment
+}

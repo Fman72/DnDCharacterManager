@@ -1,0 +1,5 @@
+query getAbilitiesForClasses($classes: [Int]) {
+    allAbilitiesForClasses(classes: $classes) {
+        name
+    }
+}

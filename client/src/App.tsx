@@ -1,10 +1,17 @@
+import { ApolloProvider } from '@apollo/client';
 import React from 'react';
 import './App.css';
 import Router from './Router';
+import { client } from './apollo/client';
+
 
 function App() {
   return (
-    <Router />
+    <>
+      <ApolloProvider client={client}>
+        <Router />
+      </ApolloProvider>
+    </>
   );
 }
 
