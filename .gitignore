@@ -4,3 +4,4 @@ __pycache__/
 node_modules/
 resetDb.ps1
 resetDb.sh
+.vscode
