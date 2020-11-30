@@ -78,6 +78,7 @@ class AbilityUse(models.Model):
     ability = models.ForeignKey(Ability, on_delete=models.CASCADE, null=False)
     character = models.ForeignKey(Character, on_delete=models.CASCADE, null=False)
     timestamp = models.DateTimeField(null=False)
+    gameSession = models.ForeignKey(GameSession, on_delete=models.CASCADE, null=False)
 
 class LearnedAbility(models.Model):
 
