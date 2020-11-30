@@ -1,0 +1,10 @@
+[
+    {
+      "model": "api.gameSession",
+      "pk": 1,
+      "fields": {
+        "name": "Test Session",
+        "code": "TEST"
+      }
+    } 
+]

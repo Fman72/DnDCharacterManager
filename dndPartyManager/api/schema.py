@@ -1,11 +1,10 @@
-from graphene import relay, List, Field, String, ObjectType, Schema, Int
+from graphene import relay, List, Field, String, ObjectType, Schema, Int, Union
 from graphene_django import DjangoObjectType
 from graphene_django.filter import DjangoFilterConnectionField
 from graphene_django.rest_framework.mutation import SerializerMutation
 from . import models
 from . import serializers
 from . import service
-
 
 class CharacterClassType(DjangoObjectType):
     class Meta:
@@ -42,12 +41,19 @@ class CharacterType(DjangoObjectType):
                 return character
             return None
 
+class SpellCasterTarget(Union):
+    class Meta:
+        types = (CharacterType, )
+
 class AbilityUseType(DjangoObjectType):
+    caster = Field(SpellCasterTarget)
+    target = Field(CharacterType)
+    
     class Meta:
         model = models.AbilityUse
-        fields = ('ability', 'character', 'timestamp')
+        fields = ('ability', 'timestamp', 'gameSession')
         interfaces = (relay.Node, )
-        filter_fields = ['character']
+        filter_fields = ['gameSession']
 
 class LearnedAbilityType(DjangoObjectType):
     class Meta:

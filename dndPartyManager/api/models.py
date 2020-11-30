@@ -1,5 +1,8 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.apps import apps
+
+apiAppConfig = apps.get_app_config('api')
 
 # Create your models here.
 
@@ -72,13 +75,39 @@ class Character(models.Model):
 
 class AbilityUse(models.Model):
 
-    def __str__(self):
-        return f'AbilityUse by {self.character.name} of {self.ability.name} at {self.timestamp}'
+    class CasterTargetType(models.TextChoices):
+        CHARACTER = 'Character'
+        NPC = 'NPC'
+        OBJECT = 'Object'
 
     ability = models.ForeignKey(Ability, on_delete=models.CASCADE, null=False)
-    character = models.ForeignKey(Character, on_delete=models.CASCADE, null=False)
     timestamp = models.DateTimeField(null=False)
     gameSession = models.ForeignKey(GameSession, on_delete=models.CASCADE, null=False)
+    # This could join onto different tables depending on the casterType.
+    casterId = models.IntegerField(null=False)
+    casterType = models.CharField(max_length=100, null=False, choices=CasterTargetType.choices)
+    # This could join onto different tables depending on the casterType.
+    targetId = models.IntegerField(null=True)
+    targetType = models.CharField(max_length=100, null=True, choices=CasterTargetType.choices)
+   
+
+    class Meta:
+        indexes = [
+            models.Index(fields=['targetId', 'targetType']),
+            models.Index(fields=['casterId', 'casterType']),
+        ]
+
+    @property
+    def caster(self):
+        model = apiAppConfig.get_model(self.casterType)
+        return model.objects.get(pk=self.casterId)
+
+    @property
+    def target(self):
+        model = apiAppConfig.get_model(self.targetType)
+        return model.objects.get(pk=self.targetId)
+
+
 
 class LearnedAbility(models.Model):
 

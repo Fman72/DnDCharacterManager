@@ -81,7 +81,7 @@ class AbilityUseSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = models.AbilityUse
-        fields = ['ability', 'character', 'timestamp']
+        fields = ['ability', 'caster', 'timestamp', 'target', 'gameSession']
 
 class LearnedAbilitySerializer(serializers.ModelSerializer):
 

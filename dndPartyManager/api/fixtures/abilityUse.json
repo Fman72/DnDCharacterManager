@@ -4,8 +4,12 @@
       "pk": 1,
       "fields": {
         "ability": 1,
-        "character": 1,
-        "timestamp": "2020-11-16T19:09:39+00:00"
+        "targetId": 1,
+        "targetType": "Character",
+        "casterId": 2,
+        "casterType": "Character",
+        "timestamp": "2020-11-16T19:09:39+00:00",
+        "gameSession": 1
       }
     } 
 ]
