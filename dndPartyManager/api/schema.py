@@ -1,10 +1,19 @@
-from graphene import relay, List, Field, String, ObjectType, Schema, Int, Union
+from graphene import relay, List, Field, String, ObjectType, Schema, Int, Interface
 from graphene_django import DjangoObjectType
 from graphene_django.filter import DjangoFilterConnectionField
 from graphene_django.rest_framework.mutation import SerializerMutation
 from . import models
 from . import serializers
 from . import service
+
+class SpellCasterTarget(Interface):
+
+    name = String()
+
+    @classmethod
+    def resolve_type(cls, instance, info):
+        if instance.__class__.__name__ == 'Character':
+            return CharacterType
 
 class CharacterClassType(DjangoObjectType):
     class Meta:
@@ -27,7 +36,7 @@ class CharacterType(DjangoObjectType):
     class Meta:
         model = models.Character
         fields = ('id', 'name', 'level', 'characterClass', 'player')
-        interfaces = (relay.Node, )
+        interfaces = (relay.Node, SpellCasterTarget)
         filter_fields = ['id', 'name', 'level', 'characterClass', 'player']
 
         @classmethod
@@ -41,13 +50,9 @@ class CharacterType(DjangoObjectType):
                 return character
             return None
 
-class SpellCasterTarget(Union):
-    class Meta:
-        types = (CharacterType, )
-
 class AbilityUseType(DjangoObjectType):
     caster = Field(SpellCasterTarget)
-    target = Field(CharacterType)
+    target = Field(SpellCasterTarget)
     
     class Meta:
         model = models.AbilityUse
