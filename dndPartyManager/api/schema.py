@@ -1,7 +1,8 @@
-from graphene import relay, List, Field, String, ObjectType, Schema, Int, Interface
+from graphene import List, Field, String, ObjectType, Schema, Int, Interface
 from graphene_django import DjangoObjectType
 from graphene_django.filter import DjangoFilterConnectionField
 from graphene_django.rest_framework.mutation import SerializerMutation
+from graphene_django_extras import DjangoObjectField, DjangoFilterListField
 from . import models
 from . import serializers
 from . import service
@@ -19,14 +20,12 @@ class CharacterClassType(DjangoObjectType):
     class Meta:
         model = models.CharacterClass
         fields = ('id', 'name')
-        interfaces = (relay.Node, )
         filter_fields = ['name']
 
 class AbilityType(DjangoObjectType):
     class Meta:
         model = models.Ability
         fields = ('id', 'name', 'description', 'level')
-        interfaces = (relay.Node, )
         filter_fields = {
             'name': ['icontains', 'istartswith', 'iendswith', 'exact'],
             'level': ['exact'],
@@ -36,7 +35,7 @@ class CharacterType(DjangoObjectType):
     class Meta:
         model = models.Character
         fields = ('id', 'name', 'level', 'characterClass', 'player')
-        interfaces = (relay.Node, SpellCasterTarget)
+        interfaces = (SpellCasterTarget, )
         filter_fields = ['id', 'name', 'level', 'characterClass', 'player']
 
         @classmethod
@@ -57,35 +56,32 @@ class AbilityUseType(DjangoObjectType):
     class Meta:
         model = models.AbilityUse
         fields = ('ability', 'timestamp', 'gameSession')
-        interfaces = (relay.Node, )
         filter_fields = ['gameSession']
 
 class LearnedAbilityType(DjangoObjectType):
     class Meta:
         model = models.LearnedAbility
         fields = ('character', 'ability', 'uses', 'learnedType')
-        interfaces = (relay.Node, )
         filter_fields = ['character']
 
 class GameSessionType(DjangoObjectType):
     class Meta:
         model = models.GameSession
         fields = ('code', 'name', 'description', 'historic')
-        interfaces = (relay.Node, )
 
 class Query(ObjectType):
-    characterClass = relay.Node.Field(CharacterClassType)
-    ability = relay.Node.Field(AbilityType)
-    character = relay.Node.Field(CharacterType)
-    abilityUse = relay.Node.Field(AbilityUseType)
-    gameSession = relay.Node.Field(GameSessionType)
-    learnedAbility = relay.Node.Field(LearnedAbilityType)
+    characterClass = DjangoObjectField(CharacterClassType)
+    ability = DjangoObjectField(AbilityType)
+    character = DjangoObjectField(CharacterType)
+    abilityUse = DjangoObjectField(AbilityUseType)
+    gameSession = DjangoObjectField(GameSessionType)
+    learnedAbility = DjangoObjectField(LearnedAbilityType)
 
-    allCharacterClasses = DjangoFilterConnectionField(CharacterClassType)
-    allAbilities = DjangoFilterConnectionField(AbilityType)
-    allCharacters = DjangoFilterConnectionField(CharacterType)
-    allAbilityUses = DjangoFilterConnectionField(AbilityUseType)
-    allLearnedAbilities = DjangoFilterConnectionField(LearnedAbilityType)
+    allCharacterClasses = DjangoFilterListField(CharacterClassType)
+    allAbilities = DjangoFilterListField(AbilityType)
+    allCharacters = DjangoFilterListField(CharacterType)
+    allAbilityUses = DjangoFilterListField(AbilityUseType)
+    allLearnedAbilities = DjangoFilterListField(LearnedAbilityType)
 
     allAbilitiesForClasses = List(AbilityType, classes=List(Int))
 
