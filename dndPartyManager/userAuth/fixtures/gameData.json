@@ -1,0 +1,11 @@
+[
+  {
+    "model": "userAuth.GameData",
+    "pk": 1,
+    "fields": {
+      "currentGameSession": 1,
+      "currentCharacter": 1,
+      "user": 2
+    }
+  }
+]
