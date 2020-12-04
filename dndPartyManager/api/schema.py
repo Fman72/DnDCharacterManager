@@ -5,7 +5,7 @@ from graphene_django.rest_framework.mutation import SerializerMutation
 from graphene_django_extras import DjangoObjectField, DjangoFilterListField
 from . import models
 from . import serializers
-from . import service
+from .service import abilityService, gameSessionService
 
 class SpellCasterTarget(Interface):
 
@@ -86,13 +86,12 @@ class Query(ObjectType):
     allAbilitiesForClasses = List(AbilityType, classes=List(Int))
 
     def resolve_allAbilitiesForClasses(root, info, classes):
-        return service.getAllAbilitiesForClasses(classes)
+        return abilityService.getAllAbilitiesForClasses(classes)
 
 
 class CharacterMutation(SerializerMutation):
     class Meta:
         serializer_class = serializers.CharacterSerializer
-        # lookup_field = 'id'
 
     @classmethod
     # This sets the player for a character to the logged in user.
@@ -116,6 +115,13 @@ class AbilityUseMutation(SerializerMutation):
 class GameSessionMutation(SerializerMutation):
     class Meta:
         serializer_class = serializers.GameSessionSerializer
+        model_operations = ['create']
+
+    @classmethod
+    # This generates a random code for new game sessions.
+    def get_serializer_kwargs(cls, root, info, **input):
+        data = {**input, 'code': gameSessionService.generateCode()}
+        return {'data': data, 'partial': True}
 
 class LearnedAbilityMutation(SerializerMutation):
     class Meta:

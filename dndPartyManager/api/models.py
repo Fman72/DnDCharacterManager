@@ -57,7 +57,7 @@ class GameSession(models.Model):
     def __str__(self):
         return f'GameSession {self.id}'
 
-    name = models.CharField(max_length=100, null=False)
+    name = models.CharField(max_length=100, null=True)
     description = models.CharField(max_length=100, null=True)
     code = models.CharField(max_length=100, null=False, unique=True)
     historic = models.BooleanField(null=False, default=False)

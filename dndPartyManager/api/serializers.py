@@ -60,6 +60,8 @@ class AbilitySerializer(serializers.ModelSerializer):
 
 class GameSessionSerializer(serializers.ModelSerializer):
     
+    code = serializers.CharField(required=False)
+
     class Meta:
         model = models.GameSession
         fields = ['name', 'description', 'code', 'historic']
