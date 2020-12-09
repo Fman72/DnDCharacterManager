@@ -4,16 +4,24 @@ import { loader } from 'graphql.macro';
 import { Ability } from '../../../types/api'; 
 
 
+interface AllAbilitiesForClassesData {
+  allAbilitiesForClasses: Ability[];
+}
+
+interface AllAbilitiesForClassesVars {
+  classes: number[];
+}
+
 interface SpellSearcherProps {
     classes: number[],
     render: (abilities: Ability[]) => React.ReactNode,
 }
 
-const getAbilitiesForClasses = loader('../../../apollo/queries/ability/getAbilitiesForClasses.gql');
+const GET_ABILITIES_FOR_CLASSES_QUERY = loader('../queries/getAbilitiesForClasses.gql');
 
 export const AbilityRetriever = (props: SpellSearcherProps) => {
     const { classes, render } = props;
-    const { data, error, loading } = useQuery(getAbilitiesForClasses, {
+    const { data, error, loading } = useQuery<AllAbilitiesForClassesData, AllAbilitiesForClassesVars>(GET_ABILITIES_FOR_CLASSES_QUERY, {
         variables: {
             classes
         },

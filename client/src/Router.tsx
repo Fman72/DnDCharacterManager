@@ -7,6 +7,7 @@ import {
 import { AbilityRetriever } from './components/Ability/AbilityRetriever/AbilityRetriever';
 import { AbilityList } from './components/Ability/AbilityList/AbilityList';
 import LoginPage from './pages/LoginPage/LoginPage';
+import GameSessionPage from './pages/GameSessionPage/GameSessionPage';
 
 export default () => {
   return (
@@ -17,6 +18,9 @@ export default () => {
         </Route>
         <Route path='/login'>
           <LoginPage />
+        </Route>
+        <Route path='/sessions'>
+          <GameSessionPage />
         </Route>
         <Route path='/abilityRetriever'>
           <AbilityRetriever

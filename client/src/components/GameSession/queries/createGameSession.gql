@@ -1,0 +1,5 @@
+mutation createGameSession() {
+  createGameSession() {
+    code
+  }
+}

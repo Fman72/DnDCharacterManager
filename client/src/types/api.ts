@@ -17,3 +17,7 @@ export interface AbilityUse {
 export interface SpellCasterTarget {
     name: string;
 }
+
+export interface GameSession {
+  code: string;
+}
