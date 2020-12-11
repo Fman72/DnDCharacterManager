@@ -1,25 +1,28 @@
-import react from "react";
+import React from "react";
 import { loader } from 'graphql.macro';
 import { useMutation } from '@apollo/client';
 import { GameSession } from '../../../types/api';
 
 const CREATE_GAME_SESSION_QUERY = loader('../queries/createGameSession.gql');
 
-interface CreateGameSessionData {
-  gameSession: GameSession;
-}
-
 interface CreateGameSessionButtonProps {
-  onCompleted: (data: CreateGameSessionData) => void;
+  onCompleted: (data: GameSession) => void;
 }
 
 
-const CreateGameSessionButton = (props: CreateGameSessionButtonProps) => {
+export const CreateGameSessionButton = (props: CreateGameSessionButtonProps) => {
   
-  const [ createGameSession, { data } ] = useMutation<
-    { createGameSession: () => CreateGameSessionData },
-    { gameSession: GameSession }
-  >(CREATE_GAME_SESSION_QUERY);
+  const { onCompleted } = props;
 
-  return (<button onClick={createGameSession}>Create Game Session</button>);
+  const [ createGameSession, { data } ] = useMutation<
+    { gameSession: GameSession }
+  >(CREATE_GAME_SESSION_QUERY, {
+    onCompleted({ gameSession }) {
+      onCompleted(gameSession);
+    }
+  });
+
+  const onClick = (e: React.MouseEvent<HTMLButtonElement>) => createGameSession();
+
+  return (<button onClick={onClick}>Create Game Session</button>);
 }
