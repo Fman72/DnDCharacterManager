@@ -1,5 +1,6 @@
 mutation createGameSession {
   gameSession(input:{}){
-    code
+    code,
+    id
   }
 }

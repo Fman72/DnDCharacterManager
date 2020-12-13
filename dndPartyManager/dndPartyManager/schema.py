@@ -1,12 +1,12 @@
 import graphene
 
 from api import schema as apiSchema
+from userAuth import schema as userAuthSchema
 
-class Query(apiSchema.Query, graphene.ObjectType):
+class Query(apiSchema.Query, userAuthSchema.Query, graphene.ObjectType):
     pass
 
-class Mutation(apiSchema.Mutation, graphene.ObjectType):
+class Mutation(apiSchema.Mutation, userAuthSchema.Query, graphene.ObjectType):
     pass
 
-
-schema = graphene.Schema(query=Query, mutation=Mutation, types=[apiSchema.CharacterType])
+schema = graphene.Schema(query=Query, mutation=Mutation)

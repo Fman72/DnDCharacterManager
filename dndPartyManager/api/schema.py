@@ -67,7 +67,7 @@ class LearnedAbilityType(DjangoObjectType):
 class GameSessionType(DjangoObjectType):
     class Meta:
         model = models.GameSession
-        fields = ('code', 'name', 'description', 'historic')
+        fields = ('id', 'code', 'name', 'description', 'historic',)
 
 class Query(ObjectType):
     characterClass = DjangoObjectField(CharacterClassType)

@@ -64,7 +64,7 @@ class GameSessionSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = models.GameSession
-        fields = ['name', 'description', 'code', 'historic']
+        fields = ['id', 'name', 'description', 'code', 'historic',]
 
 class CharacterSerializer(serializers.ModelSerializer):
     
