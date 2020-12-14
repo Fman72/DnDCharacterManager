@@ -5,6 +5,7 @@ from graphene_django.rest_framework.mutation import SerializerMutation
 from graphene_django_extras import DjangoObjectField, DjangoFilterListField
 from . import models
 from . import serializers
+from .service import gameDataService
 
 class GameDataType(DjangoObjectType):
     class Meta:
@@ -19,24 +20,18 @@ class Query(graphene.ObjectType):
         gameData = models.GameData.objects.get(user=currentUser)
         return gameData
 
-class GameDataMutation(SerializerMutation):
-    class Meta:
-        serializer_class = serializers.GameDataSerializer
+class GameDataMutation(graphene.Mutation):
+    class Arguments:
+        currentGameSession = graphene.ID()
+        currentCharacter = graphene.ID()
+
+    gameData = graphene.Field(GameDataType)
 
     @classmethod
-    # Always return the gamedata for the logged in user.
-    def get_serializer_kwargs(cls, root, info, **input):
+    def mutate(cls, root, info, **kwargs):
         currentUser = info.context.user.id
-        data = {**input, 'player': player}
-        if 'id' in input:
-            instance = GameData.objects.filter(user=currentUser).first()
-            if instance:
-                return {'instance': instance, 'data': data, 'partial': True}
+        gameData = gameDataService.updateGameData(currentUser, **kwargs)
+        return GameDataMutation(gameData=gameData)
 
-            else:
-                raise http.Http404
-
-        return {'data': data, 'partial': True}
-      
 class Mutation(graphene.ObjectType):
-    gameData=GameDataMutation.Field()
+    setGameData=GameDataMutation.Field()

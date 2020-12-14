@@ -6,7 +6,7 @@ from userAuth import schema as userAuthSchema
 class Query(apiSchema.Query, userAuthSchema.Query, graphene.ObjectType):
     pass
 
-class Mutation(apiSchema.Mutation, userAuthSchema.Query, graphene.ObjectType):
+class Mutation(apiSchema.Mutation, userAuthSchema.Mutation, graphene.ObjectType):
     pass
 
 schema = graphene.Schema(query=Query, mutation=Mutation)
