@@ -1,0 +1,9 @@
+mutation updateGameData($currentGameSession: ID, $currentCharacter: ID) {
+  setGameData(currentGameSession: $currentGameSession, currentCharacter: $currentCharacter) {
+    gameData {
+      id,
+      currentCharacter,
+      currentGameSession
+    }
+  }
+}

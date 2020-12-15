@@ -73,6 +73,11 @@ class Character(models.Model):
     player = models.ForeignKey(User, on_delete=models.CASCADE, null=False)
     currentSession = models.ForeignKey(GameSession, on_delete=models.DO_NOTHING, null=True)
 
+    # Django Graphene doesn't show user models in the client side schema, this also prevents showing sensitive user data in client.
+    @property
+    def playerId(self):
+        return self.player.id
+
 class AbilityUse(models.Model):
 
     class CasterTargetType(models.TextChoices):

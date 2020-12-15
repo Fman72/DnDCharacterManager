@@ -6,7 +6,7 @@ class GameDataSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.GameData
         fields = [
+            'user',
             'currentGameSession',
             'currentCharacter',
-            'user',
         ]

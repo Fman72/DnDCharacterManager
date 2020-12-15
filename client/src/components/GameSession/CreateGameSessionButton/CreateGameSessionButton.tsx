@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { loader } from 'graphql.macro';
 import { useMutation } from '@apollo/client';
 import { GameSession } from '../../../types/api';
@@ -14,7 +14,7 @@ export const CreateGameSessionButton = (props: CreateGameSessionButtonProps) => 
   
   const { onCompleted } = props;
 
-  const [ createGameSession, { data } ] = useMutation<
+  const [createGameSession] = useMutation<
     { gameSession: GameSession }
   >(CREATE_GAME_SESSION_QUERY, {
     onCompleted({ gameSession }) {

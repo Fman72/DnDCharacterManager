@@ -10,14 +10,14 @@ from .service import gameDataService
 class GameDataType(DjangoObjectType):
     class Meta:
         model = models.GameData
-        fields = ('id', 'currentGameSession', 'currentCharacter', 'user')
-       
+    userId = graphene.Int(source='userId')
+    
 class Query(graphene.ObjectType):
     gameData = graphene.Field(GameDataType)
     
     def resolve_gameData(root, info, **kwargs):
         currentUser = info.context.user.id
-        gameData = models.GameData.objects.get(user=currentUser)
+        gameData = models.GameData.objects.get(user=2)
         return gameData
 
 class GameDataMutation(graphene.Mutation):
@@ -34,4 +34,4 @@ class GameDataMutation(graphene.Mutation):
         return GameDataMutation(gameData=gameData)
 
 class Mutation(graphene.ObjectType):
-    setGameData=GameDataMutation.Field()
+    updateGameData=GameDataMutation.Field()

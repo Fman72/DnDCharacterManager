@@ -1,0 +1,12 @@
+query getGameData($user: ID) {
+  gameData(user: $user) {
+    id,
+    currentCharacter {
+      id
+    },
+    currentGameSession {
+      id
+    },
+    user
+  }
+}

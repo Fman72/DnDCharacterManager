@@ -1,9 +1,13 @@
-export interface Ability {
+interface Entity {
+    id: number;
+}
+
+export interface Ability extends Entity {
     name: string;
     description: string;
 }
 
-export interface AbilityUse {
+export interface AbilityUse extends Entity {
     character: {
         name: string;
     }
@@ -18,6 +22,6 @@ export interface SpellCasterTarget {
     name: string;
 }
 
-export interface GameSession {
+export interface GameSession extends Entity {
   code: string;
 }

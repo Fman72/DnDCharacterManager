@@ -19,13 +19,11 @@ class SpellCasterTarget(Interface):
 class CharacterClassType(DjangoObjectType):
     class Meta:
         model = models.CharacterClass
-        fields = ('id', 'name')
         filter_fields = ['name']
 
 class AbilityType(DjangoObjectType):
     class Meta:
         model = models.Ability
-        fields = ('id', 'name', 'description', 'level')
         filter_fields = {
             'name': ['icontains', 'istartswith', 'iendswith', 'exact'],
             'level': ['exact'],
@@ -34,7 +32,6 @@ class AbilityType(DjangoObjectType):
 class CharacterType(DjangoObjectType):
     class Meta:
         model = models.Character
-        fields = ('id', 'name', 'level', 'characterClass', 'player')
         interfaces = (SpellCasterTarget, )
         filter_fields = ['id', 'name', 'level', 'characterClass', 'player']
 
@@ -55,19 +52,16 @@ class AbilityUseType(DjangoObjectType):
     
     class Meta:
         model = models.AbilityUse
-        fields = ('ability', 'timestamp', 'gameSession')
         filter_fields = ['gameSession']
 
 class LearnedAbilityType(DjangoObjectType):
     class Meta:
         model = models.LearnedAbility
-        fields = ('character', 'ability', 'uses', 'learnedType')
         filter_fields = ['character']
 
 class GameSessionType(DjangoObjectType):
     class Meta:
         model = models.GameSession
-        fields = ('id', 'code', 'name', 'description', 'historic',)
 
 class Query(ObjectType):
     characterClass = DjangoObjectField(CharacterClassType)
