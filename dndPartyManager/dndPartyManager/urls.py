@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 from graphene_django.views import GraphQLView
 from django.views.decorators.csrf import csrf_exempt
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.authtoken.views import obtain_auth_token
 from .views import DRFAuthenticatedGraphQLView
 
 urlpatterns = [
@@ -26,4 +26,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('graphql/', csrf_exempt(GraphQLView.as_view(graphiql=True))),
     path('graphqlToken/', csrf_exempt(DRFAuthenticatedGraphQLView.as_view(graphiql=True))),
+    path('getToken/', obtain_auth_token, name='api_token_auth'), 
 ]

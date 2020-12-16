@@ -4,6 +4,6 @@ import { CreateGameSessionButton } from '../../components/GameSession/CreateGame
 export default () => {
     return <div>
         Game Session Page
-        <CreateGameSessionButton onCompleted={(data) => alert(data.code)}/>
+        <CreateGameSessionButton onCompleted={(data) => null}/>
     </div>;
 }
