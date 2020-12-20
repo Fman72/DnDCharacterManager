@@ -1,6 +1,6 @@
 import { takeLatest, put, call } from 'redux-saga/effects';
 import { LoginStart, LoginActions } from '../types/login';
-import { retrieveToken, setToken } from '../../requests/token';
+import { retrieveToken, setToken } from '../../api/token';
 
 function* loginStartWorker(action: LoginStart) {
   const { username, password } = action;
@@ -8,8 +8,8 @@ function* loginStartWorker(action: LoginStart) {
     yield put({type: LoginActions.LoginProcessing});
     const response: Response = yield call(retrieveToken, username, password);
     if (response.status === 200) {
-      const responseBody = yield response.text();
-      yield setToken(responseBody);
+      const responseBody = yield response.json();
+      yield setToken(responseBody.token);
       yield put({type: LoginActions.LoginSuccess});
     }
   } catch (ex) {

@@ -1,12 +1,17 @@
 const TOKEN_KEY = 'TOKENY_TOKEN';
 
-export const retrieveToken = async (username: string, password: string) => {
-  const result: Response = await fetch('/getToken', {
+const HOST = 'http://localhost:8000';
+
+export const retrieveToken = async (username: string, password: string): Promise<Response> => {
+  return await fetch(HOST + '/getToken/', {
     method: 'POST',
     body: JSON.stringify({
       username,
       password,
-    })
+    }),
+    headers: {
+      'Content-Type': 'application/json'
+    }
   });
 }
 

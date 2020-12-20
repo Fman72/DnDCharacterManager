@@ -27,5 +27,7 @@ export default (state = initialState, action: LoginActionTypes) => {
         ...state,
         loggingIn: false,
       }
+    default:
+      return initialState;
   }
 }
