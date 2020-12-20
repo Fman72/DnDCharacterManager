@@ -1,6 +1,6 @@
-const TOKEN_KEY = 'TOKENY_TOKEN';
+import { HOST } from "./constants";
 
-const HOST = 'http://localhost:8000';
+const TOKEN_KEY = 'TOKENY_TOKEN';
 
 export const retrieveToken = async (username: string, password: string): Promise<Response> => {
   return await fetch(HOST + '/getToken/', {

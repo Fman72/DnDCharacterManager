@@ -9,6 +9,7 @@ export interface LoginStart {
   type: LoginActions.LoginStart,
   password: string,
   username: string,
+  callback?: () => void;
 }
 
 export interface LoginSuccess {

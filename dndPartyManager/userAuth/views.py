@@ -1,15 +1,14 @@
 from django.shortcuts import render
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
 
 # Create your views here.
 from django.contrib.auth import authenticate, login
 
-def login(request):
-    username = request.POST['username']
-    password = request.POST['password']
-    user = authenticate(request, username=username, password=password)
-    if user is not None:
-        login(request, user)
-        
-    else:
-        # Return an 'invalid login' error message.
-        
+@api_view(['GET'])
+def currentUser(request):
+    user = request.user
+    return Response({
+        'username': user.username,
+        'id': user.id,
+    })

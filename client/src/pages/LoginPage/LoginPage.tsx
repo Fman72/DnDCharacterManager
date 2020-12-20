@@ -3,6 +3,6 @@ import { LoginForm } from '../../components/Auth/LoginForm/LoginForm';
 
 export default () => {
     return <div>
-        <LoginForm />
+        <LoginForm afterLogin={() => window.location.pathname = '/sessions'}/>
     </div>;
 }
