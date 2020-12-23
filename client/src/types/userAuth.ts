@@ -1,5 +1,6 @@
+import { Character, GameSession } from './api';
+
 export interface GameData {
-  currentCharacter: number;
-  currentGameSession: number;
-  userId: number;
+  currentCharacter: Character;
+  currentGameSession: GameSession;
 }

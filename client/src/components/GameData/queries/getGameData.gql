@@ -1,0 +1,12 @@
+query getGameData {
+  gameData {
+    id,
+    currentCharacter {
+      id
+    },
+    currentGameSession {
+      id
+    },
+    user
+  }
+}

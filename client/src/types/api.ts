@@ -25,3 +25,7 @@ export interface SpellCasterTarget {
 export interface GameSession extends Entity {
   code: string;
 }
+
+export interface Character extends Entity {
+  name: string;
+}
