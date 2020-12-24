@@ -17,8 +17,9 @@ class Query(graphene.ObjectType):
     
     def resolve_gameData(root, info, **kwargs):
         currentUser = info.context.user.id
-        gameData = models.GameData.objects.get(user=2)
-        return gameData
+        gameData = gameDataService.getOrCreateGameData(currentUser)
+        gameData = None
+        
 
 class GameDataMutation(graphene.Mutation):
     class Arguments:
@@ -29,7 +30,7 @@ class GameDataMutation(graphene.Mutation):
 
     @classmethod
     def mutate(cls, root, info, **kwargs):
-        currentUser = info.context.user.id
+        currentUser = info.context.user
         gameData = gameDataService.updateGameData(currentUser, **kwargs)
         return GameDataMutation(gameData=gameData)
 
