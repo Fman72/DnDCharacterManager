@@ -2,12 +2,14 @@ import { LoginSuccess, LoginStart, LoginFailed, LoginActions } from "../types/lo
 
 type LoginActionTypes = LoginSuccess | LoginStart | LoginFailed;
 
-interface LoginState {
+export interface LoginState {
   loggingIn: boolean;
+  loggedIn: boolean;
 }
 
 const initialState = {
   loggingIn: false,
+  loggedIn: false,
 }
 
 export default (state = initialState, action: LoginActionTypes) => {
@@ -21,6 +23,7 @@ export default (state = initialState, action: LoginActionTypes) => {
       return {
         ...state,
         loggingIn: false,
+        loggedIn: true,
       }
     case LoginActions.LoginFailed:
       return {

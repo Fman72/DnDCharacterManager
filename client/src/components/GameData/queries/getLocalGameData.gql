@@ -1,5 +1,5 @@
-query getGameData($user: ID) {
-  gameData(user: $user) {
+query getLocalGameData {
+  localGameData @client {
     id,
     currentCharacter {
       id
@@ -7,6 +7,5 @@ query getGameData($user: ID) {
     currentGameSession {
       id
     },
-    user
   }
 }

@@ -18,7 +18,7 @@ class Query(graphene.ObjectType):
     def resolve_gameData(root, info, **kwargs):
         currentUser = info.context.user.id
         gameData = gameDataService.getOrCreateGameData(currentUser)
-        gameData = None
+        return gameData
         
 
 class GameDataMutation(graphene.Mutation):

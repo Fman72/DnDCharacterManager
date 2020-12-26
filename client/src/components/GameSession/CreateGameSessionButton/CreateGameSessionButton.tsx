@@ -1,6 +1,6 @@
 import React from 'react';
 import { loader } from 'graphql.macro';
-import { useMutation } from '@apollo/client';
+import { useMutation, useReactiveVar } from '@apollo/client';
 import { GameSession } from '../../../types/api';
 
 const CREATE_GAME_SESSION_QUERY = loader('../queries/createGameSession.gql');
@@ -11,7 +11,6 @@ interface CreateGameSessionButtonProps {
 
 
 export const CreateGameSessionButton = (props: CreateGameSessionButtonProps) => {
-  
   const { onCompleted } = props;
 
   const [createGameSession] = useMutation<

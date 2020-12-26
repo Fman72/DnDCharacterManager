@@ -1,10 +1,9 @@
 import { ApolloClient, InMemoryCache } from '@apollo/client';
-import { split, HttpLink } from '@apollo/client';
-import { WebSocketLink } from '@apollo/client/link/ws';
+import { HttpLink } from '@apollo/client';
 import { loader } from 'graphql.macro';
 import { setContext } from '@apollo/client/link/context';
 import { getToken } from '../api/token';
-
+import { cache } from './cache'
 
 const typeDefs = loader('./schema.gql');
 
@@ -25,6 +24,6 @@ const httpLink = new HttpLink({
 
 export const client = new ApolloClient({
     link: authLink.concat(httpLink),
-    cache: new InMemoryCache(),
+    cache,
     typeDefs,
 });
