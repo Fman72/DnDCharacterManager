@@ -6,7 +6,7 @@ import React, { useEffect } from 'react';
 
 export const SessionLoader = () => {
 
-  const [getGameData, meta] = useGetGameData();
+  const [getGameData] = useGetGameData();
   const gameData = useReactiveVar(gameDataVar);
   const isLoggedIn = useReactiveVar(isLoggedInVar);
 

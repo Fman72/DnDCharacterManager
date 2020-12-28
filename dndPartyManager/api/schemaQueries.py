@@ -1,11 +1,11 @@
 from graphene import List, Field, String, ObjectType, Schema, Int, Interface
-from graphene_django import DjangoObjectType, DjangoListObjectType
+from graphene_django import DjangoObjectType
 from graphene_django.filter import DjangoFilterConnectionField
 from graphene_django.rest_framework.mutation import SerializerMutation
 from graphene_django_extras import DjangoObjectField, DjangoFilterListField
 from . import models
 from . import serializers
-from .service import abilityService, gameSessionService
+from .service import abilityService, gameSessionService, characterService
 
 class SpellCasterTarget(Interface):
 
@@ -63,18 +63,6 @@ class GameSessionType(DjangoObjectType):
     class Meta:
         model = models.GameSession
 
-class UserListType(DjangoListObjectType):
-    class Meta:
-        description = " Type definition for user list "
-        model = User
-        pagination = LimitOffsetGraphqlPagination(default_limit=25, ordering="-username")
-
-class CharacterListType(DjangoListObjectType):
-    class Meta:
-        model = models.Character
-        pagination = LimitOffsetGraphqlPagination(default_limit=25, ordering="name")
-
-
 class Query(ObjectType):
     characterClass = DjangoObjectField(CharacterClassType)
     ability = DjangoObjectField(AbilityType)
@@ -83,7 +71,7 @@ class Query(ObjectType):
     gameSession = DjangoObjectField(GameSessionType)
     learnedAbility = DjangoObjectField(LearnedAbilityType)
 
-    usersCharacters = DjangoListObjectField(CharacterType, extra_filter_meta=)
+    usersCharacters = List(CharacterType)
 
     allCharacterClasses = DjangoFilterListField(CharacterClassType)
     allAbilities = DjangoFilterListField(AbilityType)

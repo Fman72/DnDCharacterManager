@@ -6,6 +6,8 @@ from graphene_django_extras import DjangoObjectField, DjangoFilterListField
 from . import models
 from . import serializers
 from .service import abilityService, gameSessionService
+# These need to be imported here despite not being used: https://github.com/graphql-python/graphene-django/issues/569
+from .schemaQueries import CharacterClassType, AbilityType, AbilityUseType, CharacterType, LearnedAbilityType, GameSessionType
 
 class CharacterMutation(SerializerMutation):
     class Meta:

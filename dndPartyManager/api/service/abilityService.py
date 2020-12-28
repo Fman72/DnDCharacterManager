@@ -1,5 +1,6 @@
 from api import models
 from django.db.models.query import QuerySet
+from typing import List
 
 # Houses business logic for API module. Basically only thing that isn't boilerplate :/
 

@@ -9,7 +9,7 @@ export const CharacterSelectPage = (props: CharacterSelectProps) => {
 
   return (
     <div>
-      
+      <CharacterList />
     </div>
   );
 }
