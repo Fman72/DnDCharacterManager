@@ -3,9 +3,9 @@ from django.db.models.query import QuerySet
 
 # Houses business logic for API module. Basically only thing that isn't boilerplate :/
 
-def getAllAbilitiesForClasses(classes):
+def getAllAbilitiesForClasses(classIds: List[int]) -> QuerySet:
     querySets = []
-    for classId in classes:
+    for classId in classIds:
         query = models.Ability.objects.filter(characterClasses__id=classId)
         querySets.append(query)
 

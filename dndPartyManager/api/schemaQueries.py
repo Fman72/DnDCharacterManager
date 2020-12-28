@@ -1,5 +1,5 @@
 from graphene import List, Field, String, ObjectType, Schema, Int, Interface
-from graphene_django import DjangoObjectType
+from graphene_django import DjangoObjectType, DjangoListObjectType
 from graphene_django.filter import DjangoFilterConnectionField
 from graphene_django.rest_framework.mutation import SerializerMutation
 from graphene_django_extras import DjangoObjectField, DjangoFilterListField
@@ -63,6 +63,18 @@ class GameSessionType(DjangoObjectType):
     class Meta:
         model = models.GameSession
 
+class UserListType(DjangoListObjectType):
+    class Meta:
+        description = " Type definition for user list "
+        model = User
+        pagination = LimitOffsetGraphqlPagination(default_limit=25, ordering="-username")
+
+class CharacterListType(DjangoListObjectType):
+    class Meta:
+        model = models.Character
+        pagination = LimitOffsetGraphqlPagination(default_limit=25, ordering="name")
+
+
 class Query(ObjectType):
     characterClass = DjangoObjectField(CharacterClassType)
     ability = DjangoObjectField(AbilityType)
@@ -71,9 +83,11 @@ class Query(ObjectType):
     gameSession = DjangoObjectField(GameSessionType)
     learnedAbility = DjangoObjectField(LearnedAbilityType)
 
+    usersCharacters = DjangoListObjectField(CharacterType, extra_filter_meta=)
+
     allCharacterClasses = DjangoFilterListField(CharacterClassType)
     allAbilities = DjangoFilterListField(AbilityType)
-    allCharacters = DjangoFilterListField(CharacterType)
+    
     allAbilityUses = DjangoFilterListField(AbilityUseType)
     allLearnedAbilities = DjangoFilterListField(LearnedAbilityType)
 
@@ -82,48 +96,6 @@ class Query(ObjectType):
     def resolve_allAbilitiesForClasses(root, info, classes):
         return abilityService.getAllAbilitiesForClasses(classes)
 
-
-class CharacterMutation(SerializerMutation):
-    class Meta:
-        serializer_class = serializers.CharacterSerializer
-
-    @classmethod
-    # This sets the player for a character to the logged in user.
-    def get_serializer_kwargs(cls, root, info, **input):
-        player = info.context.user.id
-        data = {**input, 'player': player}
-        if 'id' in input:
-            instance = Post.objects.filter(id=input['id'], owner=info.context.user).first()
-            if instance:
-                return {'instance': instance, 'data': data, 'partial': True}
-
-            else:
-                raise http.Http404
-
-        return {'data': data, 'partial': True}
-
-class AbilityUseMutation(SerializerMutation):
-    class Meta:
-        serializer_class = serializers.AbilityUseSerializer
-
-class GameSessionMutation(SerializerMutation):
-    class Meta:
-        serializer_class = serializers.GameSessionSerializer
-        model_operations = ['create']
-
-    @classmethod
-    # This generates a random code for new game sessions.
-    def get_serializer_kwargs(cls, root, info, **input):
-        data = {**input, 'code': gameSessionService.generateCode()}
-        return {'data': data, 'partial': True}
-
-class LearnedAbilityMutation(SerializerMutation):
-    class Meta:
-        convert_choices_to_enum = False
-        serializer_class = serializers.LearnedAbilitySerializer
-
-class Mutation(ObjectType):
-    character=CharacterMutation.Field()
-    abilityUse=AbilityUseMutation.Field()
-    gameSession=GameSessionMutation.Field()
-    learnedAbility=LearnedAbilityMutation.Field()
+    def resolve_usersCharacters(root, info, classes):
+        userId = info.context.user.id
+        return characterService.getCharactersForUser(userId)
