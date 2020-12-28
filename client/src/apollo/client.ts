@@ -2,7 +2,7 @@ import { ApolloClient, InMemoryCache } from '@apollo/client';
 import { HttpLink } from '@apollo/client';
 import { loader } from 'graphql.macro';
 import { setContext } from '@apollo/client/link/context';
-import { getToken } from '../api/token';
+import { getToken } from '../util/token';
 import { cache } from './cache'
 
 const typeDefs = loader('./schema.gql');

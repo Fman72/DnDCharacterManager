@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { LoginForm } from '../../components/Auth/LoginForm';
-import { useGetGameData } from '../../components/GameData/helpers/useGetGameData';
+import { useGetGameData } from '../../hooks/GameData/useGetGameData';
 
 export const LoginPage = () => {
 

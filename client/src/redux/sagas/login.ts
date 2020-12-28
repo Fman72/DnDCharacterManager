@@ -1,6 +1,6 @@
 import { takeLatest, put, call } from 'redux-saga/effects';
 import { LoginStart, LoginActions } from '../types/login';
-import { retrieveToken, setToken } from '../../api/token';
+import { retrieveToken, setToken } from '../../util/token';
 import { isLoggedInVar } from '../../apollo/cache';
 
 function* loginStartWorker(action: LoginStart) {

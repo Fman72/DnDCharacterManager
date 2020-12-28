@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 import { CreateGameSessionButton } from '../../components/GameSession/CreateGameSessionButton';
-import { useUpdateGameData } from '../../components/GameData/helpers/useUpdateGameData';
+import { useUpdateGameData } from '../../hooks/GameData/useUpdateGameData';
 import { GameSession } from '../../types/api';
 import { Paths } from '../../Router';
 

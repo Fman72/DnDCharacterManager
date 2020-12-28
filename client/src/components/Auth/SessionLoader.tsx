@@ -1,6 +1,6 @@
-import { getToken } from '../../api/token';
+import { getToken } from '../../util/token';
 import { isLoggedInVar, gameDataVar } from '../../apollo/cache';
-import { useGetGameData } from '../GameData/helpers/useGetGameData';
+import { useGetGameData } from '../../hooks/GameData/useGetGameData';
 import { useReactiveVar } from '@apollo/client';
 import React, { useEffect } from 'react';
 
