@@ -8,27 +8,33 @@ import { AbilityRetriever } from './components/Ability/AbilityRetriever/AbilityR
 import { AbilityList } from './components/Ability/AbilityList/AbilityList';
 import { LoginPage } from './pages/LoginPage/LoginPage';
 import GameSessionPage from './pages/GameSessionPage/GameSessionPage';
+import { SessionLoader } from './components/Auth/SessionLoader';
+import { Logouter } from './components/Auth/Logouter';
 
 export default () => {
   return (
-    <BrowserRouter>
-      <Switch>
-      <Route exact path='/'>
-          <LoginPage />
-        </Route>
-        <Route path='/login'>
-          <LoginPage />
-        </Route>
-        <Route path='/sessions'>
-          <GameSessionPage />
-        </Route>
-        <Route path='/abilityRetriever'>
-          <AbilityRetriever
-            classes={[1, 2]}
-            render={(abilities => <AbilityList abilities={abilities}/>)}
-          />
-        </Route>
-      </Switch>
-    </BrowserRouter>
+    <>
+      <SessionLoader />
+      <Logouter />
+      <BrowserRouter>
+        <Switch>
+        <Route exact path='/'>
+            <LoginPage />
+          </Route>
+          <Route path='/login'>
+            <LoginPage />
+          </Route>
+          <Route path='/sessions'>
+            <GameSessionPage />
+          </Route>
+          <Route path='/abilityRetriever'>
+            <AbilityRetriever
+              classes={[1, 2]}
+              render={(abilities => <AbilityList abilities={abilities}/>)}
+            />
+          </Route>
+        </Switch>
+      </BrowserRouter>
+    </>
   );
 }

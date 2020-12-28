@@ -7,11 +7,10 @@ const GET_GAME_DATA_QUERY = loader('../queries/getGameData.gql');
 
 export const useGetGameData = (options?: QueryHookOptions<GameData>): QueryTuple<GameData, {}> => {
   
-  const onCompleted = (data: GameData) => {
+  const onCompleted = (data: any) => {
     if (data) {
-      localStorage.setItem('GAMEDATA', JSON.stringify(data));
-      // This doesn't work so I'm using localStorage.
-      gameDataVar(data);
+      const { gameData } = data;
+      gameDataVar(gameData);
     }
     if (options?.onCompleted) {
       options?.onCompleted(data);

@@ -1,6 +1,7 @@
 import { takeLatest, put, call } from 'redux-saga/effects';
 import { LoginStart, LoginActions } from '../types/login';
 import { retrieveToken, setToken } from '../../api/token';
+import { isLoggedInVar } from '../../apollo/cache';
 
 function* loginStartWorker(action: LoginStart) {
   const { username, password, callback } = action;
@@ -10,6 +11,7 @@ function* loginStartWorker(action: LoginStart) {
     if (response.status === 200) {
       const responseBody = yield response.json();
       yield setToken(responseBody.token);
+      isLoggedInVar(true);
       yield put({type: LoginActions.LoginSuccess});
       // This should kick off another saga but want to wait to abstract saga code first.
       if (callback) {

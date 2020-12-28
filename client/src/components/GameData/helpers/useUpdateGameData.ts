@@ -15,24 +15,19 @@ interface UpdateGameDataVariables {
 // Update this to use reactive var to store game data not the apollo cache,.
 export const useUpdateGameData = (options?: MutationHookOptions<GameData, UpdateGameDataVariables>) => {
   const [updateGameDataRaw] = useMutation<GameData, UpdateGameDataVariables>(UPDATE_GAME_DATA_QUERY, options);
-  const getLocalGameData = useImperativeQuery(GET_LOCAL_GAME_DATA_QUERY);
-  const dataString = localStorage.getItem('GAMEDATA');
-  let data: GameData | null = null;
-  if (dataString) {
-    data = JSON.parse(dataString).gameData;
-  }
+  const gameData = useReactiveVar(gameDataVar);
 
   const updateGameData = async (currentGameSession?: number, currentCharacter?: number) => {
     const variables: UpdateGameDataVariables = {
       currentGameSession,
       currentCharacter
     };
-    if (data) {
-      if (variables.currentCharacter === undefined && data?.currentCharacter) {
-        variables.currentCharacter = data?.currentCharacter.id;
+    if (gameData) {
+      if (variables.currentCharacter === undefined && gameData?.currentCharacter) {
+        variables.currentCharacter = gameData?.currentCharacter.id;
       }
-      if (variables.currentGameSession === undefined && data?.currentGameSession) {
-        variables.currentGameSession = data?.currentGameSession.id;
+      if (variables.currentGameSession === undefined && gameData?.currentGameSession) {
+        variables.currentGameSession = gameData?.currentGameSession.id;
       }
   
       updateGameDataRaw({ variables })

@@ -3,6 +3,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { startLogin } from '../../../redux/actions/login';
 import { RootState } from '../../../redux/reducers';
 import { useGetGameData } from '../../GameData/helpers/useGetGameData';
+import { gameDataVar, isLoggedInVar } from '../../../apollo/cache';
+import { useHistory } from 'react-router-dom';
+import { useReactiveVar } from '@apollo/client';
 
 
 interface LoginFormProps {
@@ -15,16 +18,14 @@ export const LoginForm = (props: LoginFormProps) => {
     const [password, setPassword] = useState<string>('');
     const dispatch = useDispatch();
     const onClick = useCallback(() => dispatch(startLogin(username, password, afterLogin)), [username, password, afterLogin]);
-    const loggedIn = useSelector((state: RootState) => state.login.loggedIn);
-    const [getGameData, { data, error, loading }] = useGetGameData({
-      onCompleted: () => window.location.pathname = '/sessions'
-    });
+    const history = useHistory();
+    const isloggedIn = useReactiveVar(isLoggedInVar);
 
     useEffect(() => {
-      if (loggedIn && !loading && !data) {
-        getGameData();
+      if (isloggedIn) {
+        history.push('/sessions');
       }
-    }, [loggedIn]);
+    }, [isloggedIn]);
 
     return <div>
         Login Form
