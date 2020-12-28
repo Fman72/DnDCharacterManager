@@ -1,9 +1,9 @@
 import React from 'react';
 import { loader } from 'graphql.macro';
 import { useMutation, useReactiveVar } from '@apollo/client';
-import { GameSession } from '../../../types/api';
+import { GameSession } from '../../types/api';
 
-const CREATE_GAME_SESSION_QUERY = loader('../queries/createGameSession.gql');
+const CREATE_GAME_SESSION_QUERY = loader('./queries/createGameSession.gql');
 
 interface CreateGameSessionButtonProps {
   onCompleted: (data: GameSession) => void;

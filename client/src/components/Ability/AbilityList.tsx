@@ -1,6 +1,6 @@
 import React from 'react';
-import { Ability } from '../../../types/api'; 
-import { AbilityPane } from '../AbilityPane/AbilityPane';
+import { Ability } from '../../types/api'; 
+import { AbilityPane } from './AbilityPane';
 
 interface AbilityListProps {
     abilities: Ability[],

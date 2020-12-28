@@ -1,5 +1,5 @@
 import react from 'react';
-import { AbilityUse } from '../../../../types/api';
+import { AbilityUse } from '../../../types/api';
 
 interface AbilityUseLogProps {
     abilityUses: AbilityUse[];

@@ -1,11 +1,10 @@
 import React, {useState, useCallback, useEffect} from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { startLogin } from '../../../redux/actions/login';
-import { RootState } from '../../../redux/reducers';
-import { useGetGameData } from '../../GameData/helpers/useGetGameData';
-import { gameDataVar, isLoggedInVar } from '../../../apollo/cache';
 import { useHistory } from 'react-router-dom';
 import { useReactiveVar } from '@apollo/client';
+import { useDispatch } from 'react-redux';
+import { startLogin } from '../../redux/actions/login';
+import { isLoggedInVar } from '../../apollo/cache';
+import { Paths } from '../../Router';
 
 
 interface LoginFormProps {
@@ -23,7 +22,7 @@ export const LoginForm = (props: LoginFormProps) => {
 
     useEffect(() => {
       if (isloggedIn) {
-        history.push('/sessions');
+        history.push(Paths.SESSIONS_PAGE);
       }
     }, [isloggedIn]);
 

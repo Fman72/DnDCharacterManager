@@ -1,4 +1,4 @@
-import { useMutation, MutationHookOptions, useReactiveVar, useLazyQuery, useQuery } from '@apollo/client';
+import { useMutation, MutationHookOptions, useReactiveVar, useLazyQuery, useQuery, MutationTuple, MutationResult } from '@apollo/client';
 import { loader } from 'graphql.macro';
 import { GameData } from '../../../types/userAuth'
 import { useImperativeQuery } from '../../../apollo/useImperativeQuery';
@@ -12,9 +12,12 @@ interface UpdateGameDataVariables {
   currentGameSession?: number;
 }
 
+type UpdateGameDataMethod = (currentGameSession?: number, currentCharacter?: number) => void;
+type UpdateGameDataTuple = [UpdateGameDataMethod, MutationResult<GameData>];
+
 // Update this to use reactive var to store game data not the apollo cache,.
-export const useUpdateGameData = (options?: MutationHookOptions<GameData, UpdateGameDataVariables>) => {
-  const [updateGameDataRaw] = useMutation<GameData, UpdateGameDataVariables>(UPDATE_GAME_DATA_QUERY, options);
+export const useUpdateGameData = (options?: MutationHookOptions<GameData, UpdateGameDataVariables>): UpdateGameDataTuple => {
+  const [updateGameDataRaw, result] = useMutation<GameData, UpdateGameDataVariables>(UPDATE_GAME_DATA_QUERY, options);
   const gameData = useReactiveVar(gameDataVar);
 
   const updateGameData = async (currentGameSession?: number, currentCharacter?: number) => {
@@ -34,5 +37,5 @@ export const useUpdateGameData = (options?: MutationHookOptions<GameData, Update
     }
   }
 
-  return { updateGameData };
+  return [updateGameData, result];
 };

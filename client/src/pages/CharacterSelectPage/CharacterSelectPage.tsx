@@ -5,11 +5,11 @@ interface CharacterSelectProps {
   characters: Character[];
 }
  
-export const CharacterSelect = (props: CharacterSelectProps) => {
+export const CharacterSelectPage = (props: CharacterSelectProps) => {
 
   return (
     <div>
-
+      
     </div>
   );
 }

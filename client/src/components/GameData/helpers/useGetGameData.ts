@@ -17,10 +17,10 @@ export const useGetGameData = (options?: QueryHookOptions<GameData>): QueryTuple
     }
   }
 
-  const [getGameData, meta] = useLazyQuery<GameData>(GET_GAME_DATA_QUERY, {
+  const [getGameData, result] = useLazyQuery<GameData>(GET_GAME_DATA_QUERY, {
     ...options,
     onCompleted
   });
 
-  return [getGameData, meta];
+  return [getGameData, result];
 };

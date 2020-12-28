@@ -1,5 +1,5 @@
 import React from 'react';
-import { Ability } from '../../../types/api'; 
+import { Ability } from '../../types/api'; 
 
 interface AbilityPaneProps {
     ability: Ability,

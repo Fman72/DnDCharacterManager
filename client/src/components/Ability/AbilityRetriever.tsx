@@ -1,7 +1,7 @@
 import React from 'react';
 import { useQuery } from '@apollo/client';
 import { loader } from 'graphql.macro';
-import { Ability } from '../../../types/api'; 
+import { Ability } from '../../types/api'; 
 
 
 interface AllAbilitiesForClassesData {
@@ -17,7 +17,7 @@ interface SpellSearcherProps {
     render: (abilities: Ability[]) => React.ReactNode,
 }
 
-const GET_ABILITIES_FOR_CLASSES_QUERY = loader('../queries/getAbilitiesForClasses.gql');
+const GET_ABILITIES_FOR_CLASSES_QUERY = loader('./queries/getAbilitiesForClasses.gql');
 
 export const AbilityRetriever = (props: SpellSearcherProps) => {
     const { classes, render } = props;

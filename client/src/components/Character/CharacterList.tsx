@@ -1,6 +1,6 @@
 import React from 'react';
-import { Character } from '../../../types/api';
-import { CharacterPane } from '../../Character/CharacterPane/CharacterPane';
+import { Character } from '../../types/api';
+import { CharacterPane } from './CharacterPane';
 
 interface CharacterListProps {
   characters: Character[];
