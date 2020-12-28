@@ -1,11 +1,9 @@
 import { useMutation, MutationHookOptions, useReactiveVar, useLazyQuery, useQuery, MutationTuple, MutationResult } from '@apollo/client';
 import { loader } from 'graphql.macro';
-import { GameData } from '../../../types/userAuth'
-import { useImperativeQuery } from '../../../apollo/useImperativeQuery';
-import { gameDataVar } from '../../../apollo/cache';
+import { GameData } from '../../types/userAuth'
+import { gameDataVar } from '../../apollo/cache';
 
-const UPDATE_GAME_DATA_QUERY = loader('../queries/updateGameData.gql');
-const GET_LOCAL_GAME_DATA_QUERY = loader('../queries/getLocalGameData.gql');
+const UPDATE_GAME_DATA_QUERY = loader('./queries/updateGameData.gql');
 
 interface UpdateGameDataVariables {
   currentCharacter?: number;

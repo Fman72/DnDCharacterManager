@@ -1,6 +1,6 @@
 import { ReactiveVar, makeVar, InMemoryCache } from '@apollo/client';
 import { GameData } from '../types/userAuth';
-import { getToken } from '../api/token';
+import { getToken } from '../util/token';
 
 export const cache =  new InMemoryCache();
 

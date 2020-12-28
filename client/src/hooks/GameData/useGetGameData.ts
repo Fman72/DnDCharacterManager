@@ -1,9 +1,9 @@
 import { useLazyQuery, QueryTuple, QueryHookOptions } from '@apollo/client';
 import { loader } from 'graphql.macro';
-import { GameData } from '../../../types/userAuth'
-import { gameDataVar } from '../../../apollo/cache';
+import { GameData } from '../../types/userAuth'
+import { gameDataVar } from '../../apollo/cache';
 
-const GET_GAME_DATA_QUERY = loader('../queries/getGameData.gql');
+const GET_GAME_DATA_QUERY = loader('./queries/getGameData.gql');
 
 export const useGetGameData = (options?: QueryHookOptions<GameData>): QueryTuple<GameData, {}> => {
   
