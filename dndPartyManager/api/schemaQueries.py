@@ -84,6 +84,6 @@ class Query(ObjectType):
     def resolve_allAbilitiesForClasses(root, info, classes):
         return abilityService.getAllAbilitiesForClasses(classes)
 
-    def resolve_usersCharacters(root, info, classes):
+    def resolve_usersCharacters(root, info):
         userId = info.context.user.id
         return characterService.getCharactersForUser(userId)

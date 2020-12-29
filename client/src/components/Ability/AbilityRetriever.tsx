@@ -1,7 +1,7 @@
 import React from 'react';
 import { useQuery } from '@apollo/client';
 import { loader } from 'graphql.macro';
-import { Ability } from '../../../types/api'; 
+import { Ability } from '../../types/api'; 
 
 
 interface AllAbilitiesForClassesData {

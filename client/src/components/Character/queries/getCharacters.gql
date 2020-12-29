@@ -1,0 +1,7 @@
+query getAllUsersCharacters {
+  usersCharacters {
+    name,
+    id,
+    level
+  }
+}

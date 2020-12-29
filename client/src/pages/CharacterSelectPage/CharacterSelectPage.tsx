@@ -1,15 +1,26 @@
 import React from 'react';
-import { Character } from '../../types/api';
+import { ConnectedCharacterList } from '../../components/Character/CharacterList';
+import { useUpdateGameData } from '../../hooks/GameData/useUpdateGameData';
+import { useHistory } from 'react-router-dom';
+import { Paths } from '../../Router';
 
 interface CharacterSelectProps {
-  characters: Character[];
+  
 }
  
 export const CharacterSelectPage = (props: CharacterSelectProps) => {
 
+  const [updateGameData] = useUpdateGameData();
+  const history = useHistory();
+
+  const generateOnCharacterSelect = (characterId: number) => async () => {
+    await updateGameData(undefined, characterId);
+    history.push(Paths.GAME)
+  };
+  
   return (
     <div>
-      <CharacterList />
+      <ConnectedCharacterList generateOnCharacterSelect={generateOnCharacterSelect}/>
     </div>
   );
 }

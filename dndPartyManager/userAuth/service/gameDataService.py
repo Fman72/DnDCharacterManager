@@ -1,11 +1,7 @@
 from .. import models
 
 def getOrCreateGameData(user: models.User) -> models.GameData:
-    try:
-        gameData = models.GameData.objects.get(user=user)
-    except models.GameData.DoesNotExist:
-        gameData = models.GameData(user=user)
-        gameData.save()
+    gameData, created = models.GameData.objects.update_or_create(user=user)
     return gameData
 
 def updateGameData(user: models.User, **kwargs) -> models.GameData:
@@ -15,5 +11,6 @@ def updateGameData(user: models.User, **kwargs) -> models.GameData:
       fkIdColumns[key + '_id'] = value
 
     gameData = getOrCreateGameData(user)
-    gameData = models.GameData(id=gameData.id, **fkIdColumns)
+    models.GameData.objects.filter(pk=gameData.pk).update(**fkIdColumns)
+    gameData.refresh_from_db()
     return gameData

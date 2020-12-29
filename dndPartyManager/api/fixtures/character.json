@@ -18,5 +18,15 @@
         "characterClass": [1],
         "player": 2
       }
+    },
+    {
+      "model": "api.character",
+      "pk": 3,
+      "fields": {
+        "name": "Test Character 3",
+        "level": 1,
+        "characterClass": [1],
+        "player": 3
+      }
     }
 ]

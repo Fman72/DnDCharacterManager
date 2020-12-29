@@ -15,7 +15,8 @@ import { CharacterSelectPage } from './pages/CharacterSelectPage/CharacterSelect
 export enum Paths {
   LOGIN_PAGE = '/login',
   SESSIONS_PAGE = '/sessions',
-  CHARACTER_SELECT_PAGE = '/characterSelect'
+  CHARACTER_SELECT_PAGE = '/characterSelect',
+  GAME = '/game',
 } 
 
 export default () => {
