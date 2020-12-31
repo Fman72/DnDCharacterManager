@@ -1,4 +1,4 @@
-import React, {useState, useCallback, useEffect} from 'react';
+import React, {useState, useCallback, useEffect, useRef} from 'react';
 import { useHistory } from 'react-router-dom';
 import { useReactiveVar } from '@apollo/client';
 import { useDispatch } from 'react-redux';
@@ -9,22 +9,22 @@ import { Paths } from '../../Router';
 
 interface LoginFormProps {
   afterLogin?: () => void;
+  isLoggedIn: boolean;
 }
 
 export const LoginForm = (props: LoginFormProps) => {
-    const { afterLogin } = props;
+    const { afterLogin, isLoggedIn } = props;
     const [username, setUsername] = useState<string>('');
     const [password, setPassword] = useState<string>('');
     const dispatch = useDispatch();
     const onClick = useCallback(() => dispatch(startLogin(username, password, afterLogin)), [username, password, afterLogin]);
     const history = useHistory();
-    const isloggedIn = useReactiveVar(isLoggedInVar);
-
+ 
     useEffect(() => {
-      if (isloggedIn) {
+      if (isLoggedIn) {
         history.push(Paths.SESSIONS_PAGE);
       }
-    }, [isloggedIn]);
+    }, [isLoggedIn]);
 
     return <div>
         Login Form

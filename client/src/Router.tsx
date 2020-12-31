@@ -4,13 +4,12 @@ import {
   Switch,
   Route,
 } from 'react-router-dom';
-import { AbilityRetriever } from './components/Ability/AbilityRetriever';
-import { AbilityList } from './components/Ability/AbilityList';
 import { LoginPage } from './pages/LoginPage/LoginPage';
 import { GameSessionPage } from './pages/GameSessionPage/GameSessionPage';
 import { SessionLoader } from './components/Auth/SessionLoader';
 import { Logouter } from './components/Auth/Logouter';
 import { CharacterSelectPage } from './pages/CharacterSelectPage/CharacterSelectPage';
+import { GamePage } from './pages/GamePage/GamePage';
 
 export enum Paths {
   LOGIN_PAGE = '/login',
@@ -38,11 +37,8 @@ export default () => {
           <Route path={Paths.CHARACTER_SELECT_PAGE}>
             <CharacterSelectPage />
           </Route>
-          <Route path='/abilityRetriever'>
-            <AbilityRetriever
-              classes={[1, 2]}
-              render={(abilities => <AbilityList abilities={abilities}/>)}
-            />
+          <Route path={Paths.GAME}>
+            <GamePage />
           </Route>
         </Switch>
       </BrowserRouter>
