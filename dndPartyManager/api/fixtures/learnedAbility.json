@@ -8,5 +8,25 @@
       "uses": 3,
       "learnedType": 1
     }
+  },
+  {
+    "model": "api.learnedAbility",
+    "pk": 2,
+    "fields": {
+      "character": 3,
+      "ability": 1,
+      "uses": 3,
+      "learnedType": 1
+    }
+  },
+  {
+    "model": "api.learnedAbility",
+    "pk": 3,
+    "fields": {
+      "character": 2,
+      "ability": 1,
+      "uses": 3,
+      "learnedType": 1
+    }
   }
 ]

@@ -6,6 +6,7 @@ from graphene_django_extras import DjangoObjectField, DjangoFilterListField
 from . import models
 from . import serializers
 from .service import abilityService, gameSessionService, characterService
+from userAuth.service import gameDataService
 
 class SpellCasterTarget(Interface):
 
@@ -71,7 +72,6 @@ class Query(ObjectType):
     gameSession = DjangoObjectField(GameSessionType)
     learnedAbility = DjangoObjectField(LearnedAbilityType)
 
-    usersCharacters = List(CharacterType)
 
     allCharacterClasses = DjangoFilterListField(CharacterClassType)
     allAbilities = DjangoFilterListField(AbilityType)
@@ -80,6 +80,8 @@ class Query(ObjectType):
     allLearnedAbilities = DjangoFilterListField(LearnedAbilityType)
 
     allAbilitiesForClasses = List(AbilityType, classes=List(Int))
+    usersCharacters = List(CharacterType)
+    learnedAbilities = List(AbilityType)
 
     def resolve_allAbilitiesForClasses(root, info, classes):
         return abilityService.getAllAbilitiesForClasses(classes)
@@ -87,3 +89,8 @@ class Query(ObjectType):
     def resolve_usersCharacters(root, info):
         userId = info.context.user.id
         return characterService.getCharactersForUser(userId)
+
+    def resolve_learnedAbilities(root, info):
+        user = info.context.user
+        gameData = gameDataService.getOrCreateGameData(user)
+        return abilityService.getLearnedAbilitiesForCharacter(gameData.currentCharacter)

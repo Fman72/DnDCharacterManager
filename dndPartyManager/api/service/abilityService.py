@@ -15,3 +15,7 @@ def getAllAbilitiesForClasses(classIds: List[int]) -> QuerySet:
         allQuery = allQuery.union(query)
 
     return allQuery
+
+def getLearnedAbilitiesForCharacter(character: models.Character) -> QuerySet:
+    query = models.Ability.objects.filter(learnedability__character=character)
+    return query
