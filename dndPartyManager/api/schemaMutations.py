@@ -8,6 +8,7 @@ from . import serializers
 from .service import abilityService, gameSessionService
 # These need to be imported here despite not being used: https://github.com/graphql-python/graphene-django/issues/569
 from .schemaQueries import CharacterClassType, AbilityType, AbilityUseType, CharacterType, LearnedAbilityType, GameSessionType
+from .schemaSubscriptions import AbilityUseSubscription
 
 class CharacterMutation(SerializerMutation):
     class Meta:
@@ -31,6 +32,13 @@ class CharacterMutation(SerializerMutation):
 class AbilityUseMutation(SerializerMutation):
     class Meta:
         serializer_class = serializers.AbilityUseSerializer
+        model_operations = ['create']
+
+    @classmethod
+    def perform_mutate(cls, serializer, info):
+        result = super().perform_mutate(cls, serializer, info)
+        AbilityUseSubscription.broadcast(payload={'abilityUse': result})
+
 
 class GameSessionMutation(SerializerMutation):
     class Meta:
