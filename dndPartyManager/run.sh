@@ -1,0 +1,1 @@
+daphne dndPartyManager.asgi:application
