@@ -19,6 +19,7 @@ from graphene_django.views import GraphQLView
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.authtoken.views import obtain_auth_token
 from .views import DRFAuthenticatedGraphQLView
+import asyncio
 
 urlpatterns = [
     path('api/', include('api.urls')),

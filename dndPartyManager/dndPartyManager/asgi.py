@@ -38,6 +38,6 @@ class CustomSocketioProtocolTypeRouter(ProtocolTypeRouter):
 application = ProtocolTypeRouter({
     'http': get_asgi_application(),
     'websocket': URLRouter([
-        django.urls.path('graphql/', MyGraphqlWsConsumer),
+        django.urls.path('graphql/', MyGraphqlWsConsumer.as_asgi()),
     ])
 })
